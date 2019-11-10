@@ -25,7 +25,7 @@ hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
 hi VertSplit ctermfg=236 ctermbg=NONE cterm=NONE guifg=#2a303b guibg=NONE gui=NONE
-hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
+hi LineNr ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SpecialKey ctermfg=44 ctermbg=44 cterm=bold guifg=#064253 guibg=#169ec4 gui=bold
 hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
@@ -62,9 +62,9 @@ hi SpellBad cterm=undercurl gui=undercurl
 hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl
 hi SpellLocal cterm=undercurl gui=undercurl
-hi DiffAdd ctermfg=44 ctermbg=44 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
-hi DiffChange ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
-hi DiffDelete ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
+hi DiffAdd ctermfg=44 ctermbg=44 cterm=bold guifg=#169ec4 guibg=#064253 gui=bold
+hi DiffChange ctermfg=162 ctermbg=162 cterm=bold guifg=#e242ac guibg=#68024b gui=bold
+hi DiffDelete ctermfg=162 ctermbg=162 cterm=bold guifg=#e242ac guibg=#68024b gui=bold
 hi DiffText ctermfg=162 ctermbg=162 cterm=bold guifg=#ffc3e4 guibg=#68024b gui=bold
 hi diffAdded ctermfg=44 ctermbg=44 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
 hi diffRemoved ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
