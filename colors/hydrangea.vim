@@ -20,12 +20,12 @@ hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi FoldColumn ctermfg=246 ctermbg=233 cterm=NONE guifg=#87abd9 guibg=#161920 gui=NONE
+hi FoldColumn ctermfg=68 ctermbg=238 cterm=NONE guifg=#4c82c6 guibg=#3b4351 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
 hi VertSplit ctermfg=236 ctermbg=NONE cterm=NONE guifg=#2a303b guibg=NONE gui=NONE
-hi LineNr ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
+hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SpecialKey ctermfg=44 ctermbg=44 cterm=bold guifg=#064253 guibg=#169ec4 gui=bold
 hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
@@ -77,24 +77,24 @@ hi Question cterm=NONE guifg=fg gui=NONE
 hi WarningMsg ctermfg=197 cterm=NONE guifg=#e91e63 gui=NONE
 hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi ColorColumn ctermfg=NONE ctermbg=52 cterm=NONE guifg=NONE guibg=#681c36 gui=NONE
-hi GitGutterAdd ctermfg=44 ctermbg=236 cterm=bold guifg=#169ec4 guibg=#2a303b gui=bold
-hi GitGutterChange ctermfg=162 ctermbg=236 cterm=bold guifg=#e242ac guibg=#2a303b gui=bold
-hi GitGutterDelete ctermfg=162 ctermbg=236 cterm=bold guifg=#e242ac guibg=#2a303b gui=bold
-hi makeCommands NONE
-hi phpIdentifier NONE
-hi phpFunctions NONE
-hi phpClasses NONE
-hi rustFuncCall ctermfg=111 guifg=#8baafe
-hi vimVar NONE
-hi link makeIdent Type
-hi link makeSpecTarget Special
-hi link makeTarget Function
-hi link makeCommands NONE
-hi link phpVarSelector Identifier
-hi link phpIdentifier NONE
-hi link phpFunctions NONE
-hi link phpClasses NONE
-hi link phpFunction Function
-hi link phpClass Type
-hi link rustQuestionMark Operator
-hi link vimVar NONE
+" hi GitGutterAdd ctermfg=44 ctermbg=236 cterm=bold guifg=#169ec4 guibg=#2a303b gui=bold
+" hi GitGutterChange ctermfg=162 ctermbg=236 cterm=bold guifg=#e242ac guibg=#2a303b gui=bold
+" hi GitGutterDelete ctermfg=162 ctermbg=236 cterm=bold guifg=#e242ac guibg=#2a303b gui=bold
+" hi makeCommands NONE
+" hi phpIdentifier NONE
+" hi phpFunctions NONE
+" hi phpClasses NONE
+" hi rustFuncCall ctermfg=111 guifg=#8baafe
+" hi vimVar NONE
+" hi link makeIdent Type
+" hi link makeSpecTarget Special
+" hi link makeTarget Function
+" hi link makeCommands NONE
+" hi link phpVarSelector Identifier
+" hi link phpIdentifier NONE
+" hi link phpFunctions NONE
+" hi link phpClasses NONE
+" hi link phpFunction Function
+" hi link phpClass Type
+" hi link rustQuestionMark Operator
+" hi link vimVar NONE
