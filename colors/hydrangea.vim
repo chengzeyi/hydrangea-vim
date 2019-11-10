@@ -31,8 +31,9 @@ hi SpecialKey ctermfg=44 ctermbg=44 cterm=bold guifg=#064253 guibg=#169ec4 gui=b
 hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
 hi MatchParen ctermfg=197 ctermbg=NONE cterm=bold guifg=#e91e63 guibg=NONE gui=bold
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
-hi Constant ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
-hi Number ctermfg=23 ctermbg=44 cterm=NONE guifg=#56c7ee guibg=#064253 gui=NONE
+hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
+hi Number ctermfg=23 cterm=NONE guifg=#56c7ee gui=NONE
+hi String ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
 hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Function ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
@@ -85,7 +86,6 @@ hi phpFunctions NONE
 hi phpClasses NONE
 hi rustFuncCall ctermfg=111 guifg=#8baafe
 hi vimVar NONE
-hi link String Constant
 hi link makeIdent Type
 hi link makeSpecTarget Special
 hi link makeTarget Function
