@@ -20,7 +20,7 @@ hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi FoldColumn ctermfg=252 ctermbg=235 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
+hi FoldColumn ctermfg=246 ctermbg=233 cterm=NONE guifg=#87abd9 guibg=#161920 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
