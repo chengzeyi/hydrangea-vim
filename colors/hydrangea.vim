@@ -51,8 +51,8 @@ hi Error ctermfg=197 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
 hi Todo ctermfg=252 ctermbg=235 cterm=bold guifg=#c3d5ec guibg=#1e222c gui=bold
 hi IncSearch ctermfg=235 ctermbg=44 cterm=bold guifg=#1e222c guibg=#169ec4 gui=bold
 hi Search ctermfg=235 ctermbg=23 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
-hi Pmenu ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi PmenuSel ctermfg=255 ctermbg=238 cterm=bold guifg=#edf5ff guibg=#3b4351 gui=bold
+hi Pmenu ctermfg=252 ctermbg=237 cterm=NONE guifg=#c3d5ec guibg=#323946 gui=NONE
+hi PmenuSel ctermfg=236 ctermbg=183 cterm=bold guifg=#2a303b guibg=#c398fe gui=bold
 hi PmenuSbar ctermbg=236 cterm=NONE guibg=#2a303b gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=235 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
