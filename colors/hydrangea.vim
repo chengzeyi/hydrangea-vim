@@ -13,8 +13,8 @@ let g:colors_name = 'hydrangea'
 set background=dark
 
 hi Normal ctermfg=252 ctermbg=235 guifg=#c3d5ec guibg=#1e222c
-hi Cursor ctermfg=NONE ctermbg=255 cterm=NONE guifg=NONE guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=NONE ctermbg=255 guifg=NONE guibg=#edf5ff
+hi Cursor ctermfg=235 ctermbg=255 cterm=NONE guifg=#1e222c guibg=#edf5ff gui=NONE
+hi CursorIM ctermfg=235 ctermbg=255 guifg=#1e222c guibg=#edf5ff
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=bold guifg=NONE guibg=#2a303b gui=bold
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
@@ -29,7 +29,7 @@ hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SpecialKey ctermfg=44 ctermbg=44 cterm=bold guifg=#064253 guibg=#169ec4 gui=bold
 hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
-hi MatchParen ctermfg=197 ctermbg=NONE cterm=bold guifg=#e91e63 guibg=NONE gui=bold
+hi MatchParen ctermfg=197 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
 hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
 hi Number ctermfg=23 cterm=NONE guifg=#56c7ee gui=NONE
