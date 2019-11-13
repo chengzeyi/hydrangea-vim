@@ -12,15 +12,15 @@ let g:colors_name = 'hydrangea'
 
 set background=dark
 
-hi Normal ctermfg=252 ctermbg=235 guifg=#c3d5ec guibg=#1e222c
-hi Cursor ctermfg=235 ctermbg=255 cterm=NONE guifg=#1e222c guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=235 ctermbg=255 guifg=#1e222c guibg=#edf5ff
+hi Normal ctermfg=252 ctermbg=234 guifg=#c3d5ec guibg=#1e222c
+hi Cursor ctermfg=234 ctermbg=255 cterm=NONE guifg=#1e222c guibg=#edf5ff gui=NONE
+hi CursorIM ctermfg=234 ctermbg=255 guifg=#1e222c guibg=#edf5ff
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=bold guifg=NONE guibg=#2a303b gui=bold
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi FoldColumn ctermfg=68 ctermbg=235 cterm=NONE guifg=#537dd5 guibg=#1e222c gui=NONE
+hi FoldColumn ctermfg=68 ctermbg=234 cterm=NONE guifg=#537dd5 guibg=#1e222c gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
@@ -28,7 +28,7 @@ hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#2a303b guibg=#2a303b gui=
 hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SpecialKey ctermfg=44 ctermbg=44 cterm=bold guifg=#064253 guibg=#169ec4 gui=bold
-hi NonText ctermfg=241 ctermbg=235 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
+hi NonText ctermfg=241 ctermbg=234 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
 hi MatchParen ctermfg=197 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
 hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
@@ -48,16 +48,16 @@ hi Special ctermfg=111 ctermbg=NONE cterm=bold guifg=#8baafe guibg=NONE gui=bold
 hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=197 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
-hi Todo ctermfg=252 ctermbg=235 cterm=bold guifg=#c3d5ec guibg=#1e222c gui=bold
-hi IncSearch ctermfg=235 ctermbg=44 cterm=bold guifg=#1e222c guibg=#169ec4 gui=bold
-hi Search ctermfg=235 ctermbg=23 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
+hi Todo ctermfg=252 ctermbg=234 cterm=bold guifg=#c3d5ec guibg=#1e222c gui=bold
+hi IncSearch ctermfg=234 ctermbg=44 cterm=bold guifg=#1e222c guibg=#169ec4 gui=bold
+hi Search ctermfg=234 ctermbg=23 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=237 cterm=NONE guifg=#c3d5ec guibg=#323946 gui=NONE
 hi PmenuSel ctermfg=236 ctermbg=183 cterm=bold guifg=#2a303b guibg=#c398fe gui=bold
 hi PmenuSbar ctermbg=236 cterm=NONE guibg=#2a303b gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
-hi TabLine ctermfg=252 ctermbg=235 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
-hi TabLineSel ctermfg=235 ctermbg=162 cterm=bold guifg=#1e222c guibg=#e242ac gui=bold
-hi TabLineFill ctermfg=252 ctermbg=235 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
+hi TabLine ctermfg=252 ctermbg=234 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
+hi TabLineSel ctermfg=234 ctermbg=162 cterm=bold guifg=#1e222c guibg=#e242ac gui=bold
+hi TabLineFill ctermfg=252 ctermbg=234 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
 hi SpellBad cterm=undercurl gui=undercurl
 hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl
