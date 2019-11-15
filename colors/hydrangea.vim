@@ -48,7 +48,7 @@ hi Special ctermfg=111 ctermbg=NONE cterm=bold guifg=#8baafe guibg=NONE gui=bold
 hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=197 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
-hi Todo ctermfg=252 ctermbg=234 cterm=bold guifg=#c3d5ec guibg=#1e222c gui=bold
+hi Todo ctermfg=183 ctermbg=234 cterm=bold guifg=#c398fe guibg=#1e222c gui=bold
 hi IncSearch ctermfg=234 ctermbg=44 cterm=bold guifg=#1e222c guibg=#169ec4 gui=bold
 hi Search ctermfg=234 ctermbg=23 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=237 cterm=NONE guifg=#c3d5ec guibg=#323946 gui=NONE
@@ -63,7 +63,7 @@ hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl
 hi SpellLocal cterm=undercurl gui=undercurl
 hi DiffAdd ctermfg=44 ctermbg=44 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
-hi DiffChange ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
+hi DiffChange ctermfg=183 ctermbg=98 cterm=NONE guifg=#c398fe guibg=#996ddb gui=NONE
 hi DiffDelete ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
 hi DiffText ctermfg=162 ctermbg=162 cterm=bold guifg=#ffc3e4 guibg=#68024b gui=bold
 hi diffAdded ctermfg=44 ctermbg=44 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
@@ -74,7 +74,7 @@ hi SignColumn ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui
 hi MoreMsg ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
 hi ModeMsg cterm=bold gui=bold
 hi Question cterm=NONE guifg=fg gui=NONE
-hi WarningMsg ctermfg=197 cterm=NONE guifg=#e91e63 gui=NONE
+hi WarningMsg ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
 hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi ColorColumn ctermfg=NONE ctermbg=52 cterm=NONE guifg=NONE guibg=#681c36 gui=NONE
 " hi GitGutterAdd ctermfg=44 ctermbg=236 cterm=bold guifg=#169ec4 guibg=#2a303b gui=bold
