@@ -32,7 +32,7 @@ hi NonText ctermfg=241 ctermbg=234 cterm=NONE guifg=#586374 guibg=#1e222c gui=NO
 hi MatchParen ctermfg=197 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
 hi Constant ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
-hi Number ctermfg=23 cterm=NONE guifg=#56c7ee gui=NONE
+hi Number ctermfg=38 cterm=NONE guifg=#56c7ee gui=NONE
 hi String ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
 hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Function ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
@@ -70,7 +70,7 @@ hi diffAdded ctermfg=44 ctermbg=44 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NO
 hi diffRemoved ctermfg=162 ctermbg=162 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
 hi Directory ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
 hi ErrorMsg ctermfg=197 ctermbg=NONE cterm=NONE guifg=#e91e63 guibg=NONE gui=NONE
-hi SignColumn ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
+hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
 hi MoreMsg ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
 hi ModeMsg cterm=bold gui=bold
 hi Question cterm=NONE guifg=fg gui=NONE
