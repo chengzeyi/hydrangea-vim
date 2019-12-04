@@ -13,8 +13,8 @@ let g:colors_name = 'hydrangea'
 set background=dark
 
 hi Normal ctermfg=252 ctermbg=234 guifg=#c3d5ec guibg=#1e222c
-hi Cursor ctermfg=252 ctermbg=255 cterm=NONE guifg=#c3d5ec guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=252 ctermbg=255 guifg=#c3d5ec guibg=#edf5ff
+hi Cursor ctermfg=234 ctermbg=255 cterm=NONE guifg=#1e222c guibg=#edf5ff gui=NONE
+hi CursorIM ctermfg=234 ctermbg=255 guifg=#1e222c guibg=#edf5ff
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=bold guifg=NONE guibg=#2a303b gui=bold
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
@@ -51,8 +51,8 @@ hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=161 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
 hi Todo ctermfg=252 ctermbg=234 cterm=bold guifg=#c3d5ec guibg=#1e222c gui=bold
-hi IncSearch ctermfg=241 ctermbg=44 cterm=bold guifg=#586374 guibg=#36c2c2 gui=bold
-hi Search ctermfg=241 ctermbg=23 cterm=NONE guifg=#586374 guibg=#134242 gui=NONE
+hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
+hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi PmenuSel ctermfg=236 ctermbg=183 cterm=bold guifg=#2a303b guibg=#c398fe gui=bold
 hi PmenuSbar ctermbg=236 cterm=NONE guibg=#2a303b gui=NONE

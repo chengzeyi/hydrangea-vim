@@ -50,8 +50,8 @@ magenta3     = ("#ffc3e4", 218)
 # Definitions
 color = OrderedDict()
 color['Normal']       = {'fg': base2,            'bg': base03,                                   }
-color['Cursor']       = {'fg': base2,           'bg': base3,                 'deco': 'NONE'     }
-color['CursorIM']     = {'fg': base2,           'bg': base3,                                    }
+color['Cursor']       = {'fg': base03,           'bg': base3,                 'deco': 'NONE'     }
+color['CursorIM']     = {'fg': base03,           'bg': base3,                                    }
 color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'bold'     }
 color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['Visual']       = {'fg': 'NONE',           'bg': base01,                'deco': 'NONE'     }
@@ -91,8 +91,8 @@ color['Ignore']       = {'fg': 'bg'                                             
 color['Error']        = {'fg': red1,             'bg': red01,                 'deco': 'bold'     }
 color['Todo']         = {'fg': base2,            'bg': base03,                'deco': 'bold'     }
 
-color['IncSearch']    = {'fg': base00,           'bg': teal2,                 'deco': 'bold'     }
-color['Search']       = {'fg': base00,           'bg': teal01,                'deco': 'NONE'     }
+color['IncSearch']    = {'fg': base03,           'bg': magenta2,              'deco': 'bold'     }
+color['Search']       = {'fg': base03,           'bg': cyan2,                 'deco': 'NONE'     }
 color['Pmenu']        = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
 color['PmenuSel']     = {'fg': base02,           'bg': violet2,               'deco': 'bold'     }
 color['PmenuSbar']    = {                        'bg': base02,                'deco': 'NONE'     }
