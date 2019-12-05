@@ -66,8 +66,8 @@ color['LineNr']       = {'fg': base00,           'bg': 'NONE',                'd
 color['SignColumn']   = {'fg': base2,            'bg': color['LineNr']['bg'], 'deco': 'NONE'     }
 color['FoldColumn']   = {'fg': blue1,            'bg': color['LineNr']['bg'], 'deco': 'NONE'     }
 color['CursorLineNr'] = {'fg': base3,            'bg': base00,                'deco': 'bold'     }
-color['SpecialKey']   = {'fg': base00,           'bg': base03,                'deco': 'bold'     }
-color['NonText']      = {'fg': base00,           'bg': base03,                'deco': 'NONE'     }
+color['SpecialKey']   = {'fg': base00,           'bg': 'NONE',                'deco': 'bold'     }
+color['NonText']      = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
 color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'deco': 'NONE'     }
 color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
 
