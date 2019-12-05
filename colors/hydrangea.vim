@@ -31,7 +31,7 @@ hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 g
 hi SpecialKey ctermfg=241 ctermbg=234 cterm=bold guifg=#586374 guibg=#1e222c gui=bold
 hi NonText ctermfg=241 ctermbg=234 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
-hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold guifg=#e91e63 guibg=NONE gui=bold
+hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
 hi Constant ctermfg=44 ctermbg=NONE cterm=bold guifg=#36c2c2 guibg=NONE gui=bold
 hi String ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
@@ -50,7 +50,7 @@ hi Special ctermfg=111 ctermbg=NONE cterm=bold guifg=#8baafe guibg=NONE gui=bold
 hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=161 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
-hi Todo ctermfg=252 ctermbg=183 cterm=bold guifg=#c3d5ec guibg=#c398fe gui=bold
+hi Todo ctermfg=252 ctermbg=98 cterm=bold guifg=#c3d5ec guibg=#996ddb gui=bold
 hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
 hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE

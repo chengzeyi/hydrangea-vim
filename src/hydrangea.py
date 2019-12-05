@@ -48,7 +48,7 @@ magenta3     = ("#ffc3e4", 218)
 
 
 # Definitions
-color = OrderedDict()
+color                 = OrderedDict()
 color['Normal']       = {'fg': base2,            'bg': base03,                                   }
 color['Cursor']       = {'fg': base03,           'bg': base3,                 'deco': 'NONE'     }
 color['CursorIM']     = {'fg': base03,           'bg': base3,                                    }
@@ -64,12 +64,12 @@ color['StatusLineNC'] = {'fg': base00,           'bg': base02,                'd
 color['VertSplit']    = {'fg': base02,           'bg': base02,                'deco': 'NONE'     }
 color['LineNr']       = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
 color['SignColumn']   = {'fg': base2,            'bg': color['LineNr']['bg'], 'deco': 'NONE'     }
-color['FoldColumn']   = {'fg': blue1,            'bg': color['LineNr']['bg'],                'deco': 'NONE'     }
+color['FoldColumn']   = {'fg': blue1,            'bg': color['LineNr']['bg'], 'deco': 'NONE'     }
 color['CursorLineNr'] = {'fg': base3,            'bg': base00,                'deco': 'bold'     }
-color['SpecialKey']   = {'fg': base00,           'bg': base03,                 'deco': 'bold'     }
+color['SpecialKey']   = {'fg': base00,           'bg': base03,                'deco': 'bold'     }
 color['NonText']      = {'fg': base00,           'bg': base03,                'deco': 'NONE'     }
-color['EndOfBuffer']  = {'fg': 'bg',              'bg': 'NONE',                'deco':'NONE'}
-color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold'     }
+color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'deco': 'NONE'     }
+color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
 
 color['Comment']      = {'fg': base00,                                        'deco': 'NONE'     }
 color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'bold'     }
@@ -89,7 +89,7 @@ color['Special']      = {'fg': blue2,            'bg': 'NONE',                'd
 color['Underlined']   = {'fg': 'fg',                                          'deco': 'underline'}
 color['Ignore']       = {'fg': 'bg'                                                              }
 color['Error']        = {'fg': red1,             'bg': red01,                 'deco': 'bold'     }
-color['Todo']         = {'fg': base2,            'bg': violet2,               'deco': 'bold'     }
+color['Todo']         = {'fg': base2,            'bg': violet1,               'deco': 'bold'     }
 
 color['IncSearch']    = {'fg': base03,           'bg': magenta2,              'deco': 'bold'     }
 color['Search']       = {'fg': base03,           'bg': cyan2,                 'deco': 'NONE'     }
@@ -108,7 +108,7 @@ color['SpellLocal']   = {                                                     'd
 
 color['DiffAdd']      = {'fg': cyan1,            'bg': cyan01,                'deco': 'NONE'     }
 color['DiffChange']   = {'fg': magenta1,         'bg': magenta01,             'deco': 'NONE'     }
-color['DiffDelete']   = {'fg': red1,            'bg': red01,                 'deco': 'NONE'     }
+color['DiffDelete']   = {'fg': red1,             'bg': red01,                 'deco': 'NONE'     }
 color['DiffText']     = {'fg': magenta3,         'bg': magenta01,             'deco': 'bold'     }
 
 color['diffAdded']    = {'fg': cyan1,            'bg': cyan01,                'deco': 'NONE'     }
