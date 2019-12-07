@@ -122,6 +122,7 @@ color['ModeMsg']      = {                                                     'd
 color['Question']     = {'fg': 'fg',                                          'deco': 'NONE'     }
 color['WildMenu']     = {'fg': base3,            'bg': base00,                'deco': 'bold'     }
 color['ColorColumn']  = {'fg': 'NONE',           'bg': red01,                 'deco': 'NONE'     }
+color['Conceal']      = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
 
 # GitGutter
 # color['GitGutterAdd']    = {'fg': cyan1,       'bg': color['SignColumn']['bg'], 'deco': 'bold'}

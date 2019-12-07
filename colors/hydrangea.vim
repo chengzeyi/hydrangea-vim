@@ -78,3 +78,4 @@ hi ModeMsg cterm=bold gui=bold
 hi Question cterm=NONE guifg=fg gui=NONE
 hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi ColorColumn ctermfg=NONE ctermbg=52 cterm=NONE guifg=NONE guibg=#681c36 gui=NONE
+hi Conceal ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
