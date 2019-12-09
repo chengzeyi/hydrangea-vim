@@ -19,7 +19,7 @@ hi CursorLine ctermfg=NONE ctermbg=236 cterm=bold guifg=NONE guibg=#2a303b gui=b
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
-hi Folded ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
+hi Folded ctermfg=234 ctermbg=241 cterm=bold guifg=#1e222c guibg=#586374 gui=bold
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
@@ -32,7 +32,7 @@ hi SpecialKey ctermfg=241 ctermbg=NONE cterm=bold guifg=#586374 guibg=NONE gui=b
 hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
-hi Comment ctermfg=241 cterm=NONE guifg=#586374 gui=NONE
+hi Comment ctermfg=241 cterm=italic guifg=#586374 gui=italic
 hi Constant ctermfg=44 ctermbg=NONE cterm=bold guifg=#36c2c2 guibg=NONE gui=bold
 hi String ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
 hi Number ctermfg=81 ctermbg=NONE cterm=bold guifg=#56c7ee guibg=NONE gui=bold
