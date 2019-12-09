@@ -57,7 +57,7 @@ color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'd
 color['Visual']       = {'fg': 'NONE',           'bg': base01,                'deco': 'NONE'     }
 color['VisualNOS']    = {'fg': 'fg',                                          'deco': 'underline'}
 
-color['Folded']       = {'fg': base03,           'bg': base00,                'deco': 'bold'     }
+color['Folded']       = {'fg': base03,           'bg': base00,                'deco': 'NONE'     }
 color['Title']        = {'fg': magenta1,         'bg': 'NONE',                'deco': 'bold'     }
 color['StatusLine']   = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
 color['StatusLineNC'] = {'fg': base00,           'bg': base02,                'deco': 'NONE'     }
