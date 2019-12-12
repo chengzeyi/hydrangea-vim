@@ -41,9 +41,9 @@ function! airline#themes#hydrangea#refresh()
   let s:N3 = s:gen(s:base03, s:base3)
   let g:airline#themes#hydrangea#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
-  let group = airline#themes#get_highlight('vimCommand')
+  let group = airline#themes#get_highlight('Statement')
   let g:airline#themes#hydrangea#palette.normal_modified = {
-        \ 'airline_c': [ group[0], '', group[2], '', '' ]
+        \ 'airline_c': group
         \ }
 
   let s:I1 = s:gen(s:base03, s:cyan1)
@@ -68,9 +68,7 @@ function! airline#themes#hydrangea#refresh()
   let s:IA2 = s:gen(s:base03, s:base01)
   let s:IA3 = s:gen(s:base03, s:base01)
   let g:airline#themes#hydrangea#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
-  let g:airline#themes#hydrangea#palette.inactive_modified = {
-        \ 'airline_c': [ group[0], '', group[2], '', '' ]
-        \ }
+  let g:airline#themes#hydrangea#palette.inactive_modified = g:airline#themes#hydrangea#palette.normal_modified
   let g:airline#themes#hydrangea#palette.tabline = {
         \ 'airline_tab':  s:N2,
         \ 'airline_tabsel':  s:gen(s:base03, s:magenta1),
