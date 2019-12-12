@@ -80,5 +80,3 @@ function! airline#themes#hydrangea#refresh()
 endfunction
 
 call airline#themes#hydrangea#refresh()
-
-
