@@ -43,7 +43,7 @@ function! airline#themes#hydrangea#refresh()
 
   let group = airline#themes#get_highlight('Statement')
   let g:airline#themes#hydrangea#palette.normal_modified = {
-        \ 'airline_c': group
+        \ 'airline_c': [ group[0], '', group[2], '', '' ]
         \ }
 
   let s:I1 = s:gen(s:base03, s:cyan1)
