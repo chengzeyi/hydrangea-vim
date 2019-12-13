@@ -37,8 +37,8 @@ function! airline#themes#hydrangea#refresh()
         \ }
 
   let s:N1 = s:gen(s:base03, s:blue1)
-  let s:N2 = s:gen(s:base03, s:base2)
-  let s:N3 = s:gen(s:base03, s:base3)
+  let s:N2 = s:gen(s:base03, s:blue2)
+  let s:N3 = s:gen(s:base03, s:blue3)
   let g:airline#themes#hydrangea#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
   let group = airline#themes#get_highlight('Statement')
