@@ -33,7 +33,7 @@ let g:airline#themes#hydrangea#palette = {}
 
 function! airline#themes#hydrangea#refresh()
   let g:airline#themes#hydrangea#palette.accents = {
-        \ 'red': airline#themes#get_highlight('Constant'),
+        \ 'red': [s:teal2[0], '', s:teal2[1], '', '']
         \ }
 
   let s:N1 = s:gen(s:base03, s:blue1)
@@ -41,9 +41,8 @@ function! airline#themes#hydrangea#refresh()
   let s:N3 = s:gen(s:base03, s:blue3)
   let g:airline#themes#hydrangea#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
-  let group = airline#themes#get_highlight('Statement')
   let g:airline#themes#hydrangea#palette.normal_modified = {
-        \ 'airline_c': [ group[0], '', group[2], '', '' ]
+        \ 'airline_c': [s:blue1[0], '', s:blue1[1], '', '']
         \ }
 
   let s:I1 = s:gen(s:base03, s:cyan1)
@@ -71,7 +70,7 @@ function! airline#themes#hydrangea#refresh()
   let g:airline#themes#hydrangea#palette.inactive_modified = g:airline#themes#hydrangea#palette.normal_modified
   let g:airline#themes#hydrangea#palette.tabline = {
         \ 'airline_tab':  s:N2,
-        \ 'airline_tabsel':  s:gen(s:base03, s:magenta1),
+        \ 'airline_tabsel':  s:R1,
         \ 'airline_tabtype':  s:V1,
         \ 'airline_tabfill':  s:IA3,
         \ 'airline_tabhid':  s:IA1,
