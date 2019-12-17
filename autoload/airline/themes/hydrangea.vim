@@ -69,12 +69,19 @@ function! airline#themes#hydrangea#refresh()
   let g:airline#themes#hydrangea#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
   let g:airline#themes#hydrangea#palette.inactive_modified = g:airline#themes#hydrangea#palette.normal_modified
   let g:airline#themes#hydrangea#palette.tabline = {
+        \ 'airline_tablabel': s:N2,
         \ 'airline_tab':  s:N2,
         \ 'airline_tabsel':  s:R1,
         \ 'airline_tabtype':  s:V1,
         \ 'airline_tabfill':  s:IA3,
+        \ 'airline_tabmod':  s:I1,
         \ 'airline_tabhid':  s:IA1,
-        \ 'airline_tabmod':  s:I1
+        \ 'airline_tab_right': s:N2,
+        \ 'airline_tabsel_right': s:R1,
+        \ 'airline_tabtype_right':  s:V1,
+        \ 'airline_tabfill_right':  s:IA3,
+        \ 'airline_tabmod_right':  s:I1,
+        \ 'airline_tabhid_right':  s:IA1
         \ }
 endfunction
 
