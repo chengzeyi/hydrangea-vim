@@ -60,6 +60,7 @@ hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#292d3e gui=NONE
 hi TabLineSel ctermfg=236 ctermbg=162 cterm=bold guifg=#292d3e guibg=#e242ac gui=bold
 hi TabLineFill ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#292d3e gui=NONE
+hi Terminal ctermfg=252 ctermbg=234 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
 hi SpellBad cterm=undercurl gui=undercurl
 hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl

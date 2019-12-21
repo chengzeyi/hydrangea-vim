@@ -100,6 +100,7 @@ color['PmenuThumb']   = {                        'bg': base00,                'd
 color['TabLine']      = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
 color['TabLineSel']   = {'fg': base02,           'bg': magenta1,              'deco': 'bold'     }
 color['TabLineFill']  = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
+color['Terminal']     = {'fg': base2,            'bg': base03,                'deco': 'NONE'     }
 
 color['SpellBad']     = {                                                     'deco': 'undercurl'}
 color['SpellCap']     = {                                                     'deco': 'undercurl'}
