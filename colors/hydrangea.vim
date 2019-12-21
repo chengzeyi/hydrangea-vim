@@ -37,7 +37,7 @@ hi Constant ctermfg=44 ctermbg=NONE cterm=bold guifg=#36c2c2 guibg=NONE gui=bold
 hi String ctermfg=44 ctermbg=23 cterm=NONE guifg=#36c2c2 guibg=#134242 gui=NONE
 hi Number ctermfg=81 ctermbg=NONE cterm=bold guifg=#56c7ee guibg=NONE gui=bold
 hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
-hi Function ctermfg=213 cterm=bold guifg=#fe7ecd gui=bold
+hi Function ctermfg=183 cterm=bold guifg=#c398fe gui=bold
 hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
 hi Operator ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
 hi Include ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
