@@ -23,7 +23,7 @@
 "     THE SOFTWARE.
 
 let s:base03    = ["#1e222c", 235]  " L* = 44
-let s:base02    = ["#2a303b", 236]  " L* = 50
+let s:base02    = ["#292d3e", 236]  " L* = 50
 let s:base01    = ["#3b4351", 238]  " L* = 58
 let s:base00    = ["#586374", 241]  " L* = 68
 let s:base2     = ["#c3d5ec", 252]  " L* = 93
