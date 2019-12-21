@@ -71,12 +71,12 @@ color['NonText']      = {'fg': base00,           'bg': 'NONE',                'd
 color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'deco': 'NONE'     }
 color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
 
-color['Comment']      = {'fg': base00,                                        'deco': 'italic'     }
+color['Comment']      = {'fg': base00,                                        'deco': 'italic'   }
 color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'bold'     }
 color['String']       = {'fg': teal2,            'bg': teal01,                'deco': 'NONE'     }
 color['Number']       = {'fg': cyan2,            'bg': 'NONE',                'deco': 'bold'     }
 color['Identifier']   = {'fg': base3,                                         'deco': 'bold'     }
-color['Function']     = {'fg': violet1,                                       'deco': 'bold'     }
+color['Function']     = {'fg': magenta2,                                      'deco': 'bold'     }
 color['Statement']    = {'fg': blue1,                                         'deco': 'bold'     }
 color['Operator']     = {'fg': magenta1,                                      'deco': 'NONE'     }
 color['Include']      = {'fg': violet1,                                       'deco': 'NONE'     }
