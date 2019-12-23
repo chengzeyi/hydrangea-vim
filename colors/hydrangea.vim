@@ -42,7 +42,7 @@ hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
 hi Operator ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
 hi Include ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
 hi PreProc ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
-hi Type ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
+hi Type ctermfg=162 cterm=bold guifg=#e242ac gui=bold
 hi StorageClass ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
 hi Structure ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
 hi Typedef ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
