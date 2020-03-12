@@ -49,7 +49,7 @@ magenta3     = ("#ffc3e4", 218)
 
 # Definitions
 color                 = OrderedDict()
-color['Normal']       = {'fg': base2,            'bg': base02,                                   }
+color['Normal']       = {'fg': base3,            'bg': base02,                                   }
 color['Cursor']       = {'fg': base02,           'bg': base3,                 'deco': 'NONE'     }
 color['CursorIM']     = {'fg': base02,           'bg': base3,                                    }
 color['CursorLine']   = {'fg': 'NONE',           'bg': base03,                'deco': 'NONE'     }
