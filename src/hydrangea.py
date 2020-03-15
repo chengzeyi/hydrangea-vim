@@ -89,7 +89,7 @@ color['Special']      = {'fg': blue2,            'bg': 'NONE',                'd
 color['Underlined']   = {'fg': 'fg',                                          'deco': 'underline'}
 color['Ignore']       = {'fg': 'bg'                                                              }
 color['Error']        = {'fg': red1,             'bg': red01,                 'deco': 'bold'     }
-color['Todo']         = {'fg': base2,            'bg': violet1,               'deco': 'bold'     }
+color['Todo']         = {'fg': base2,            'bg': red1,                  'deco': 'bold'     }
 
 color['IncSearch']    = {'fg': base02,           'bg': magenta2,              'deco': 'bold'     }
 color['Search']       = {'fg': base02,           'bg': cyan2,                 'deco': 'NONE'     }

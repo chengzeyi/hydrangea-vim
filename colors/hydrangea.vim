@@ -50,7 +50,7 @@ hi Special ctermfg=111 ctermbg=NONE cterm=bold guifg=#8baafe guibg=NONE gui=bold
 hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=161 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
-hi Todo ctermfg=252 ctermbg=98 cterm=bold guifg=#c3d5ec guibg=#996ddb gui=bold
+hi Todo ctermfg=252 ctermbg=161 cterm=bold guifg=#c3d5ec guibg=#e91e63 gui=bold
 hi IncSearch ctermfg=236 ctermbg=213 cterm=bold guifg=#292d3e guibg=#fe7ecd gui=bold
 hi Search ctermfg=236 ctermbg=81 cterm=NONE guifg=#292d3e guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
