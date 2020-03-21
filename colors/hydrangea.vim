@@ -33,9 +33,9 @@ hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=italic guifg=#586374 gui=italic
-hi Constant ctermfg=44 ctermbg=NONE cterm=bold guifg=#36c2c2 guibg=NONE gui=bold
+hi Constant ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
 hi String ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
-hi Number ctermfg=81 ctermbg=NONE cterm=bold guifg=#56c7ee guibg=NONE gui=bold
+hi Number ctermfg=81 ctermbg=NONE cterm=NONE guifg=#56c7ee guibg=NONE gui=NONE
 hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
 hi Function ctermfg=183 cterm=bold guifg=#c398fe gui=bold
 hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold

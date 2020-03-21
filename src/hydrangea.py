@@ -72,9 +72,9 @@ color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'd
 color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
 
 color['Comment']      = {'fg': base00,                                        'deco': 'italic'   }
-color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'bold'     }
+color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'NONE'     }
 color['String']       = {'fg': teal2,            'bg': 'NONE',                'deco': 'NONE'     }
-color['Number']       = {'fg': cyan2,            'bg': 'NONE',                'deco': 'bold'     }
+color['Number']       = {'fg': cyan2,            'bg': 'NONE',                'deco': 'NONE'     }
 color['Identifier']   = {'fg': base3,                                         'deco': 'bold'     }
 color['Function']     = {'fg': violet2,                                       'deco': 'bold'     }
 color['Statement']    = {'fg': blue1,                                         'deco': 'bold'     }
