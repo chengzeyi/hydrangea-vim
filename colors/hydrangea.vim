@@ -36,15 +36,15 @@ hi Comment ctermfg=241 cterm=italic guifg=#586374 gui=italic
 hi Constant ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
 hi String ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
 hi Number ctermfg=81 ctermbg=NONE cterm=NONE guifg=#56c7ee guibg=NONE gui=NONE
-hi Identifier ctermfg=255 cterm=bold guifg=#edf5ff gui=bold
-hi Function ctermfg=183 cterm=bold guifg=#c398fe gui=bold
-hi Statement ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
-hi Operator ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
+hi Identifier ctermfg=255 cterm=NONE guifg=#edf5ff gui=NONE
+hi Function ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
+hi Statement ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
+hi Operator ctermfg=162 cterm=bold guifg=#e242ac gui=bold
 hi Include ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
 hi PreProc ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
 hi Type ctermfg=162 cterm=bold guifg=#e242ac gui=bold
 hi StorageClass ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
-hi Structure ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
+hi Structure ctermfg=162 cterm=bold guifg=#e242ac gui=bold
 hi Typedef ctermfg=68 cterm=bold guifg=#537dd5 gui=bold
 hi Special ctermfg=111 ctermbg=NONE cterm=bold guifg=#8baafe guibg=NONE gui=bold
 hi Underlined cterm=underline guifg=fg gui=underline
