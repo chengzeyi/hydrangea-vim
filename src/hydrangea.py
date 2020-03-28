@@ -49,18 +49,18 @@ magenta3     = ("#ffc3e4", 218)
 
 # Definitions
 color                 = OrderedDict()
-color['Normal']       = {'fg': base2,            'bg': base02,                                   }
-color['Cursor']       = {'fg': base02,           'bg': base3,                 'deco': 'NONE'     }
-color['CursorIM']     = {'fg': base02,           'bg': base3,                                    }
-color['CursorLine']   = {'fg': 'NONE',           'bg': base03,                'deco': 'NONE'     }
-color['CursorColumn'] = {'fg': 'NONE',           'bg': base03,                'deco': 'NONE'     }
+color['Normal']       = {'fg': base2,            'bg': base03,                                   }
+color['Cursor']       = {'fg': base03,           'bg': base2,                 'deco': 'NONE'     }
+color['CursorIM']     = {'fg': base03,           'bg': base2,                                    }
+color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
+color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['Visual']       = {'fg': 'NONE',           'bg': base01,                'deco': 'NONE'     }
 color['VisualNOS']    = {'fg': 'fg',                                          'deco': 'underline'}
 
 color['Folded']       = {'fg': base02,           'bg': base00,                'deco': 'NONE'     }
 color['Title']        = {'fg': magenta1,         'bg': 'NONE',                'deco': 'bold'     }
 color['StatusLine']   = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
-color['StatusLineNC'] = {'fg': base00,           'bg': base03,                'deco': 'NONE'     }
+color['StatusLineNC'] = {'fg': base00,           'bg': base02,                'deco': 'NONE'     }
 color['VertSplit']    = {'fg': base01,           'bg': 'NONE',                'deco': 'NONE'     }
 color['LineNr']       = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
 color['SignColumn']   = {'fg': base2,            'bg': color['LineNr']['bg'], 'deco': 'NONE'     }
@@ -100,7 +100,7 @@ color['PmenuThumb']   = {                        'bg': base00,                'd
 color['TabLine']      = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
 color['TabLineSel']   = {'fg': base02,           'bg': magenta1,              'deco': 'bold'     }
 color['TabLineFill']  = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
-color['Terminal']     = {'fg': base2,            'bg': base03,                'deco': 'NONE'     }
+color['Terminal']     = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
 
 color['SpellBad']     = {                                                     'deco': 'undercurl'}
 color['SpellCap']     = {                                                     'deco': 'undercurl'}

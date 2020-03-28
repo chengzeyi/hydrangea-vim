@@ -12,17 +12,17 @@ let g:colors_name = 'hydrangea'
 
 set background=dark
 
-hi Normal ctermfg=252 ctermbg=236 guifg=#c3d5ec guibg=#292d3e
-hi Cursor ctermfg=236 ctermbg=255 cterm=NONE guifg=#292d3e guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=236 ctermbg=255 guifg=#292d3e guibg=#edf5ff
-hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1e222c gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1e222c gui=NONE
+hi Normal ctermfg=252 ctermbg=234 guifg=#c3d5ec guibg=#1e222c
+hi Cursor ctermfg=234 ctermbg=252 cterm=NONE guifg=#1e222c guibg=#c3d5ec gui=NONE
+hi CursorIM ctermfg=234 ctermbg=252 guifg=#1e222c guibg=#c3d5ec
+hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#292d3e gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#292d3e gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=236 ctermbg=241 cterm=NONE guifg=#292d3e guibg=#586374 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
-hi StatusLineNC ctermfg=241 ctermbg=234 cterm=NONE guifg=#586374 guibg=#1e222c gui=NONE
+hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#292d3e gui=NONE
 hi VertSplit ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
 hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
@@ -60,7 +60,7 @@ hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#292d3e gui=NONE
 hi TabLineSel ctermfg=236 ctermbg=162 cterm=bold guifg=#292d3e guibg=#e242ac gui=bold
 hi TabLineFill ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#292d3e gui=NONE
-hi Terminal ctermfg=252 ctermbg=234 cterm=NONE guifg=#c3d5ec guibg=#1e222c gui=NONE
+hi Terminal ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#292d3e gui=NONE
 hi SpellBad cterm=undercurl gui=undercurl
 hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl
