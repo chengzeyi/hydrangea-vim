@@ -22,7 +22,7 @@ except ImportError:
 
 # Palette
 base03       = ("#1e222c", 234)  # L* = 44
-base02       = ("#292d3e", 236)  # L* = 50
+base02       = ("#2a303b", 236)  # L* = 50
 base01       = ("#3b4351", 238)  # L* = 58
 base00       = ("#586374", 241)  # L* = 68
 base2        = ("#c3d5ec", 252)  # L* = 93
@@ -50,8 +50,8 @@ magenta3     = ("#ffc3e4", 218)
 # Definitions
 color                 = OrderedDict()
 color['Normal']       = {'fg': base2,            'bg': base03,                                   }
-color['Cursor']       = {'fg': base03,           'bg': base2,                 'deco': 'NONE'     }
-color['CursorIM']     = {'fg': base03,           'bg': base2,                                    }
+color['Cursor']       = {'fg': base03,           'bg': base3,                 'deco': 'NONE'     }
+color['CursorIM']     = {'fg': base03,           'bg': base3,                                    }
 color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['Visual']       = {'fg': 'NONE',           'bg': base01,                'deco': 'NONE'     }
