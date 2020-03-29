@@ -21,8 +21,8 @@ hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=236 ctermbg=241 cterm=NONE guifg=#2a303b guibg=#586374 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
-hi StatusLine ctermfg=252 ctermbg=241 cterm=NONE guifg=#c3d5ec guibg=#586374 gui=NONE
-hi StatusLineNC ctermfg=241 ctermbg=238 cterm=NONE guifg=#586374 guibg=#3b4351 gui=NONE
+hi StatusLine ctermfg=234 ctermbg=252 cterm=NONE guifg=#1e222c guibg=#c3d5ec gui=NONE
+hi StatusLineNC ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
 hi VertSplit ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
 hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
