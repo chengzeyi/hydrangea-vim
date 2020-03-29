@@ -21,8 +21,8 @@ hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=236 ctermbg=241 cterm=NONE guifg=#2a303b guibg=#586374 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
-hi StatusLine ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
-hi StatusLineNC ctermfg=241 ctermbg=236 cterm=NONE guifg=#586374 guibg=#2a303b gui=NONE
+hi StatusLine ctermfg=252 ctermbg=241 cterm=NONE guifg=#c3d5ec guibg=#586374 gui=NONE
+hi StatusLineNC ctermfg=241 ctermbg=238 cterm=NONE guifg=#586374 guibg=#3b4351 gui=NONE
 hi VertSplit ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
 hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
@@ -59,8 +59,8 @@ hi PmenuSbar ctermbg=234 cterm=NONE guibg=#1e222c gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
 hi TabLineSel ctermfg=236 ctermbg=162 cterm=bold guifg=#2a303b guibg=#e242ac gui=bold
-hi TabLineFill ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi Terminal ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
+hi TabLineFill ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
+hi Terminal ctermfg=236 ctermbg=252 cterm=NONE guifg=#2a303b guibg=#c3d5ec gui=NONE
 hi SpellBad cterm=undercurl gui=undercurl
 hi SpellCap cterm=undercurl gui=undercurl
 hi SpellRare cterm=undercurl gui=undercurl

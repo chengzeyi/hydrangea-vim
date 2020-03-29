@@ -59,8 +59,8 @@ color['VisualNOS']    = {'fg': 'fg',                                          'd
 
 color['Folded']       = {'fg': base02,           'bg': base00,                'deco': 'NONE'     }
 color['Title']        = {'fg': magenta1,         'bg': 'NONE',                'deco': 'bold'     }
-color['StatusLine']   = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
-color['StatusLineNC'] = {'fg': base00,           'bg': base02,                'deco': 'NONE'     }
+color['StatusLine']   = {'fg': base2,            'bg': base00,                'deco': 'NONE'     }
+color['StatusLineNC'] = {'fg': base00,           'bg': base01,                'deco': 'NONE'     }
 color['VertSplit']    = {'fg': base01,           'bg': 'NONE',                'deco': 'NONE'     }
 color['LineNr']       = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
 color['CursorLineNr'] = {'fg': base3,            'bg': base00,                'deco': 'bold'     }
@@ -99,8 +99,8 @@ color['PmenuSbar']    = {                        'bg': base03,                'd
 color['PmenuThumb']   = {                        'bg': base00,                'deco': 'NONE'     }
 color['TabLine']      = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
 color['TabLineSel']   = {'fg': base02,           'bg': magenta1,              'deco': 'bold'     }
-color['TabLineFill']  = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
-color['Terminal']     = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
+color['TabLineFill']  = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
+color['Terminal']     = {'fg': base02,           'bg': base2,                 'deco': 'NONE'     }
 
 color['SpellBad']     = {                                                     'deco': 'undercurl'}
 color['SpellCap']     = {                                                     'deco': 'undercurl'}
