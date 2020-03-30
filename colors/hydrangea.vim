@@ -19,7 +19,7 @@ hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=N
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
-hi Folded ctermfg=236 ctermbg=241 cterm=NONE guifg=#2a303b guibg=#586374 gui=NONE
+hi Folded ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=234 ctermbg=252 cterm=NONE guifg=#1e222c guibg=#c3d5ec gui=NONE
 hi StatusLineNC ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
@@ -51,14 +51,14 @@ hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
 hi Error ctermfg=161 ctermbg=52 cterm=bold guifg=#e91e63 guibg=#681c36 gui=bold
 hi Todo ctermfg=252 ctermbg=161 cterm=bold guifg=#c3d5ec guibg=#e91e63 gui=bold
-hi IncSearch ctermfg=236 ctermbg=213 cterm=bold guifg=#2a303b guibg=#fe7ecd gui=bold
-hi Search ctermfg=236 ctermbg=81 cterm=NONE guifg=#2a303b guibg=#56c7ee gui=NONE
+hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
+hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi PmenuSel ctermfg=234 ctermbg=183 cterm=bold guifg=#1e222c guibg=#c398fe gui=bold
 hi PmenuSbar ctermbg=234 cterm=NONE guibg=#1e222c gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
-hi TabLineSel ctermfg=236 ctermbg=162 cterm=bold guifg=#2a303b guibg=#e242ac gui=bold
+hi TabLineSel ctermfg=234 ctermbg=162 cterm=bold guifg=#1e222c guibg=#e242ac gui=bold
 hi TabLineFill ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi Terminal ctermfg=255 ctermbg=236 cterm=NONE guifg=#edf5ff guibg=#2a303b gui=NONE
 hi SpellBad cterm=undercurl gui=undercurl

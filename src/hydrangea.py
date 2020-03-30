@@ -57,7 +57,7 @@ color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'd
 color['Visual']       = {'fg': 'NONE',           'bg': base01,                'deco': 'NONE'     }
 color['VisualNOS']    = {'fg': 'fg',                                          'deco': 'underline'}
 
-color['Folded']       = {'fg': base02,           'bg': base00,                'deco': 'NONE'     }
+color['Folded']       = {'fg': base03,           'bg': base00,                'deco': 'NONE'     }
 color['Title']        = {'fg': magenta1,         'bg': 'NONE',                'deco': 'bold'     }
 color['StatusLine']   = {'fg': base03,           'bg': base2,                 'deco': 'NONE'     }
 color['StatusLineNC'] = {'fg': base03,           'bg': base00,                'deco': 'NONE'     }
@@ -91,14 +91,14 @@ color['Ignore']       = {'fg': 'bg'                                             
 color['Error']        = {'fg': red1,             'bg': red01,                 'deco': 'bold'     }
 color['Todo']         = {'fg': base2,            'bg': red1,                  'deco': 'bold'     }
 
-color['IncSearch']    = {'fg': base02,           'bg': magenta2,              'deco': 'bold'     }
-color['Search']       = {'fg': base02,           'bg': cyan2,                 'deco': 'NONE'     }
+color['IncSearch']    = {'fg': base03,           'bg': magenta2,              'deco': 'bold'     }
+color['Search']       = {'fg': base03,           'bg': cyan2,                 'deco': 'NONE'     }
 color['Pmenu']        = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
 color['PmenuSel']     = {'fg': base03,           'bg': violet2,               'deco': 'bold'     }
 color['PmenuSbar']    = {                        'bg': base03,                'deco': 'NONE'     }
 color['PmenuThumb']   = {                        'bg': base00,                'deco': 'NONE'     }
 color['TabLine']      = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
-color['TabLineSel']   = {'fg': base02,           'bg': magenta1,              'deco': 'bold'     }
+color['TabLineSel']   = {'fg': base03,           'bg': magenta1,              'deco': 'bold'     }
 color['TabLineFill']  = {'fg': base2,            'bg': base01,                'deco': 'NONE'     }
 color['Terminal']     = {'fg': base3,            'bg': base02,                'deco': 'NONE'     }
 
