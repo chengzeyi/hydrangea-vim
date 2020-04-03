@@ -23,7 +23,7 @@ hi Folded ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NON
 hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
 hi StatusLine ctermfg=234 ctermbg=252 cterm=NONE guifg=#1e222c guibg=#c3d5ec gui=NONE
 hi StatusLineNC ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
-hi VertSplit ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
+hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#586374 guibg=#586374 gui=NONE
 hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
