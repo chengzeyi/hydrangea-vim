@@ -28,7 +28,7 @@ hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
 hi FoldColumn ctermfg=68 ctermbg=NONE cterm=NONE guifg=#537dd5 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=241 ctermbg=NONE cterm=bold guifg=#586374 guibg=NONE gui=bold
+hi SpecialKey ctermfg=236 ctermbg=NONE cterm=bold guifg=#2a303b guibg=NONE gui=bold
 hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
