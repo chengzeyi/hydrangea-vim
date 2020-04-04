@@ -28,7 +28,7 @@ hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
 hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
 hi FoldColumn ctermfg=68 ctermbg=NONE cterm=NONE guifg=#537dd5 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=236 ctermbg=NONE cterm=bold guifg=#2a303b guibg=NONE gui=bold
+hi SpecialKey ctermfg=238 ctermbg=NONE cterm=bold guifg=#3b4351 guibg=NONE gui=bold
 hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
@@ -54,7 +54,7 @@ hi Todo ctermfg=252 ctermbg=161 cterm=bold guifg=#c3d5ec guibg=#e91e63 gui=bold
 hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
 hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
-hi PmenuSel ctermfg=234 ctermbg=183 cterm=bold guifg=#1e222c guibg=#c398fe gui=bold
+hi PmenuSel ctermfg=238 ctermbg=252 cterm=bold guifg=#3b4351 guibg=#c3d5ec gui=bold
 hi PmenuSbar ctermbg=234 cterm=NONE guibg=#1e222c gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
 hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
