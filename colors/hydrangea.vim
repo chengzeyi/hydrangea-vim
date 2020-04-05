@@ -32,7 +32,7 @@ hi SpecialKey ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=N
 hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
 hi Whitespace ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
-hi MatchParen ctermfg=234 ctermbg=161 cterm=bold guifg=#1e222c guibg=#e91e63 gui=bold
+hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
 hi Comment ctermfg=241 cterm=italic guifg=#586374 gui=italic
 hi Constant ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
 hi String ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE

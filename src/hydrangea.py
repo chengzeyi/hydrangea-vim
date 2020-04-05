@@ -70,7 +70,7 @@ color['SpecialKey']   = {'fg': base01,           'bg': 'NONE',                'd
 color['NonText']      = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
 color['Whitespace']   = {'fg': base01,           'bg': 'NONE',                'deco': 'NONE'     }
 color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'deco': 'NONE'     }
-color['MatchParen']   = {'fg': base03,           'bg': red1,                  'deco': 'bold'     }
+color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
 
 color['Comment']      = {'fg': base00,                                        'deco': 'italic'   }
 color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'NONE'     }
