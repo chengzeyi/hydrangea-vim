@@ -68,9 +68,9 @@ color['SignColumn']   = {'fg': base2,            'bg': 'NONE',                'd
 color['FoldColumn']   = {'fg': blue1,            'bg': 'NONE',                'deco': 'NONE'     }
 color['SpecialKey']   = {'fg': base01,           'bg': 'NONE',                'deco': 'NONE'     }
 color['NonText']      = {'fg': base00,           'bg': 'NONE',                'deco': 'NONE'     }
-color['Whitespace']   = {'fg': base02,           'bg': 'NONE',                'deco': 'NONE'     }
+color['Whitespace']   = {'fg': base01,           'bg': 'NONE',                'deco': 'NONE'     }
 color['EndOfBuffer']  = {'fg': 'bg',             'bg': 'NONE',                'deco': 'NONE'     }
-color['MatchParen']   = {'fg': red1,             'bg': 'NONE',                'deco': 'bold,underline'}
+color['MatchParen']   = {'fg': base03,           'bg': red1,                  'deco': 'bold'     }
 
 color['Comment']      = {'fg': base00,                                        'deco': 'italic'   }
 color['Constant']     = {'fg': teal2,            'bg': 'NONE',                'deco': 'NONE'     }
@@ -89,8 +89,8 @@ color['Typedef']      = {'fg': blue1,                                         'd
 color['Special']      = {'fg': blue2,            'bg': 'NONE',                'deco': 'NONE'     }
 color['Underlined']   = {'fg': 'fg',                                          'deco': 'underline'}
 color['Ignore']       = {'fg': 'bg'                                                              }
-color['Error']        = {'fg': red1,             'bg': red01,                 'deco': 'bold'     }
-color['Todo']         = {'fg': cyan1,            'bg': cyan01,                'deco': 'bold'     }
+color['Error']        = {'fg': base03,            'bg': red1,                 'deco': 'bold'     }
+color['Todo']         = {'fg': base03,            'bg': violet1,              'deco': 'bold'     }
 
 color['IncSearch']    = {'fg': base03,           'bg': magenta2,              'deco': 'bold'     }
 color['Search']       = {'fg': base03,           'bg': cyan2,                 'deco': 'NONE'     }
