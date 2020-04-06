@@ -50,15 +50,15 @@ hi Typedef ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
 hi Special ctermfg=111 ctermbg=NONE cterm=NONE guifg=#8baafe guibg=NONE gui=NONE
 hi Underlined cterm=underline guifg=fg gui=underline
 hi Ignore guifg=bg
-hi Error ctermfg=234 ctermbg=161 cterm=bold guifg=#1e222c guibg=#e91e63 gui=bold
-hi Todo ctermfg=234 ctermbg=98 cterm=bold guifg=#1e222c guibg=#996ddb gui=bold
+hi Error ctermfg=255 ctermbg=161 cterm=bold guifg=#edf5ff guibg=#e91e63 gui=bold
+hi Todo ctermfg=255 ctermbg=98 cterm=bold guifg=#edf5ff guibg=#996ddb gui=bold
 hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
 hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
 hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi PmenuSel ctermfg=238 ctermbg=252 cterm=bold guifg=#3b4351 guibg=#c3d5ec gui=bold
 hi PmenuSbar ctermbg=234 cterm=NONE guibg=#1e222c gui=NONE
 hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
-hi TabLine ctermfg=252 ctermbg=236 cterm=NONE guifg=#c3d5ec guibg=#2a303b gui=NONE
+hi TabLine ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
 hi TabLineSel ctermfg=234 ctermbg=162 cterm=bold guifg=#1e222c guibg=#e242ac gui=bold
 hi TabLineFill ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
 hi Terminal ctermfg=255 ctermbg=236 cterm=NONE guifg=#edf5ff guibg=#2a303b gui=NONE
