@@ -6,78 +6,171 @@
 
 hi clear
 if exists('syntax_on')
-  syntax reset
+    syntax reset
 endif
 let g:colors_name = 'hydrangea'
 
+let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
+let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
+let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
+let s:base00       = ['#586374', 241] " L* = 68 #586374
+let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
+let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
+let s:red01        = ['#681c36',  52] " #681c36
+let s:red1         = ['#e91e63', 161] " #e91e63
+let s:teal01       = ['#134242',  23] " #134242
+let s:teal2        = ['#36c2c2',  44] " #36c2c2
+let s:cyan01       = ['#064253',  23] " #064253
+let s:cyan1        = ['#169ec4',  38] " #169ec4
+let s:cyan2        = ['#56c7ee',  81] " #56c7ee
+let s:cyan3        = ['#bcebfe', 153] " #bcebfe
+let s:blue1        = ['#537dd5',  68] " #537dd5
+let s:blue2        = ['#8baafe', 111] " #8baafe
+let s:blue3        = ['#c9d4fd', 189] " #c9d4fd
+let s:violet1      = ['#996ddb',  98] " #996ddb
+let s:violet2      = ['#c398fe', 183] " #c398fe
+let s:violet3      = ['#e2ccfe', 225] " #e2ccfe
+let s:magenta01    = ['#68024b',  89] " #68024b
+let s:magenta1     = ['#e242ac', 162] " #e242ac
+let s:magenta2     = ['#fe7ecd', 213] " #fe7ecd
+let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
+
+let s:fg = s:base2
+let s:bg = s:base03
+let s:colors                 = {}
+let s:colors['Normal']       = { 'fg': s:fg,       'bg': s:bg,}
+let s:colors['Cursor']       = { 'fg': s:bg,       'bg': s:fg,        'deco': 'NONE'}
+let s:colors['CursorIM']     = { 'fg': s:bg,       'bg': s:fg,}
+let s:colors['CursorLine']   = { 'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
+let s:colors['CursorColumn'] = { 'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
+let s:colors['Visual']       = { 'fg': 'NONE',     'bg': s:base01,    'deco': 'NONE'}
+let s:colors['VisualNOS']    = { 'fg': s:fg,       'deco': 'underline'}
+
+let s:colors['Folded']       = { 'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
+let s:colors['Title']        = { 'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
+let s:colors['StatusLine']   = { 'fg': s:base03,   'bg': s:base2,     'deco': 'NONE'}
+let s:colors['StatusLineNC'] = { 'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
+let s:colors['VertSplit']    = { 'fg': s:base00,   'bg': s:base00,    'deco': 'NONE'}
+let s:colors['LineNr']       = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['CursorLineNr'] = { 'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
+let s:colors['SignColumn']   = { 'fg': s:base2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['FoldColumn']   = { 'fg': s:blue1,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['SpecialKey']   = { 'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['NonText']      = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Whitespace']   = { 'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['EndOfBuffer']  = { 'fg': s:bg,       'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['MatchParen']   = { 'fg': s:red1,     'bg': 'NONE',      'deco': 'bold,underline'}
+
+let s:colors['Comment']      = { 'fg': s:base00,   'deco': 'italic'}
+let s:colors['Constant']     = { 'fg': s:teal2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['String']       = { 'fg': s:teal2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Number']       = { 'fg': s:cyan2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Identifier']   = { 'fg': s:base3,    'deco': 'NONE'}
+let s:colors['Function']     = { 'fg': s:violet2,  'deco': 'NONE'}
+let s:colors['Statement']    = { 'fg': s:blue1,    'deco': 'NONE'}
+let s:colors['Operator']     = { 'fg': s:blue2,    'deco': 'NONE'}
+let s:colors['Include']      = { 'fg': s:violet1,  'deco': 'NONE'}
+let s:colors['PreProc']      = { 'fg': s:violet2,  'deco': 'NONE'}
+let s:colors['Type']         = { 'fg': s:magenta1, 'deco': 'NONE'}
+let s:colors['StorageClass'] = { 'fg': s:blue1,    'deco': 'NONE'}
+let s:colors['Structure']    = { 'fg': s:magenta1, 'deco': 'NONE'}
+let s:colors['Typedef']      = { 'fg': s:blue1,    'deco': 'NONE'}
+let s:colors['Special']      = { 'fg': s:blue2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Underlined']   = { 'deco': 'underline'}
+let s:colors['Ignore']       = { 'fg': s:bg}
+let s:colors['Error']        = { 'fg': s:base3,    'bg': s:red1,      'deco': 'bold'}
+let s:colors['Todo']         = { 'fg': s:base3,    'bg': s:violet1,   'deco': 'bold'}
+
+let s:colors['IncSearch']    = { 'fg': s:base03,   'bg': s:magenta2,  'deco': 'bold'}
+let s:colors['Search']       = { 'fg': s:base03,   'bg': s:cyan2,     'deco': 'NONE'}
+let s:colors['Pmenu']        = { 'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
+let s:colors['PmenuSel']     = { 'fg': s:base01,   'bg': s:base2,     'deco': 'bold'}
+let s:colors['PmenuSbar']    = { 'bg': s:base03,   'deco': 'NONE'}
+let s:colors['PmenuThumb']   = { 'bg': s:base00,   'deco': 'NONE'}
+let s:colors['TabLine']      = { 'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
+let s:colors['TabLineSel']   = { 'fg': s:base03,   'bg': s:magenta1,  'deco': 'bold'}
+let s:colors['TabLineFill']  = { 'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
+let s:colors['Terminal']     = { 'fg': s:base3,    'bg': s:base02,    'deco': 'NONE'}
+
+let s:colors['SpellBad']     = { 'deco': 'undercurl'}
+let s:colors['SpellCap']     = { 'deco': 'undercurl'}
+let s:colors['SpellRare']    = { 'deco': 'undercurl'}
+let s:colors['SpellLocal']   = { 'deco': 'undercurl'}
+
+let s:colors['DiffAdd']      = { 'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['DiffChange']   = { 'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
+let s:colors['DiffDelete']   = { 'fg': s:red1,     'bg': s:red01,     'deco': 'NONE'}
+let s:colors['DiffText']     = { 'fg': s:magenta3, 'bg': s:magenta01, 'deco': 'bold'}
+
+let s:colors['diffAdded']    = { 'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['diffRemoved']  = { 'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
+
+let s:colors['Directory']    = { 'fg': s:teal2,    'deco': 'NONE'}
+let s:colors['ErrorMsg']     = { 'fg': s:red1,     'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['WarningMsg']   = { 'fg': s:violet1,  'deco': 'NONE'}
+let s:colors['MoreMsg']      = { 'fg': s:blue1,    'deco': 'NONE'}
+let s:colors['ModeMsg']      = { 'deco': 'bold'}
+let s:colors['Question']     = { 'fg': s:magenta2, 'deco': 'NONE'}
+let s:colors['WildMenu']     = { 'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
+let s:colors['ColorColumn']  = { 'fg': 'NONE',     'bg': s:red01,     'deco': 'NONE'}
+let s:colors['Conceal']      = { 'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
+
 set background=dark
 
-hi Normal ctermfg=252 ctermbg=234 guifg=#c3d5ec guibg=#1e222c
-hi Cursor ctermfg=234 ctermbg=255 cterm=NONE guifg=#1e222c guibg=#edf5ff gui=NONE
-hi CursorIM ctermfg=234 ctermbg=255 guifg=#1e222c guibg=#edf5ff
-hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2a303b gui=NONE
-hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#3b4351 gui=NONE
-hi VisualNOS cterm=underline guifg=fg gui=underline
-hi Folded ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
-hi Title ctermfg=162 ctermbg=NONE cterm=bold guifg=#e242ac guibg=NONE gui=bold
-hi StatusLine ctermfg=234 ctermbg=252 cterm=NONE guifg=#1e222c guibg=#c3d5ec gui=NONE
-hi StatusLineNC ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
-hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#586374 guibg=#586374 gui=NONE
-hi LineNr ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
-hi CursorLineNr ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
-hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE guifg=#c3d5ec guibg=NONE gui=NONE
-hi FoldColumn ctermfg=68 ctermbg=NONE cterm=NONE guifg=#537dd5 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
-hi NonText ctermfg=241 ctermbg=NONE cterm=NONE guifg=#586374 guibg=NONE gui=NONE
-hi Whitespace ctermfg=238 ctermbg=NONE cterm=NONE guifg=#3b4351 guibg=NONE gui=NONE
-hi EndOfBuffer ctermbg=NONE cterm=NONE guifg=bg guibg=NONE gui=NONE
-hi MatchParen ctermfg=161 ctermbg=NONE cterm=bold,underline guifg=#e91e63 guibg=NONE gui=bold,underline
-hi Comment ctermfg=241 cterm=italic guifg=#586374 gui=italic
-hi Constant ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
-hi String ctermfg=44 ctermbg=NONE cterm=NONE guifg=#36c2c2 guibg=NONE gui=NONE
-hi Number ctermfg=81 ctermbg=NONE cterm=NONE guifg=#56c7ee guibg=NONE gui=NONE
-hi Identifier ctermfg=255 cterm=NONE guifg=#edf5ff gui=NONE
-hi Function ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
-hi Statement ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
-hi Operator ctermfg=111 cterm=NONE guifg=#8baafe gui=NONE
-hi Include ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
-hi PreProc ctermfg=183 cterm=NONE guifg=#c398fe gui=NONE
-hi Type ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
-hi StorageClass ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
-hi Structure ctermfg=162 cterm=NONE guifg=#e242ac gui=NONE
-hi Typedef ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
-hi Special ctermfg=111 ctermbg=NONE cterm=NONE guifg=#8baafe guibg=NONE gui=NONE
-hi Underlined cterm=underline guifg=fg gui=underline
-hi Ignore guifg=bg
-hi Error ctermfg=255 ctermbg=161 cterm=bold guifg=#edf5ff guibg=#e91e63 gui=bold
-hi Todo ctermfg=255 ctermbg=98 cterm=bold guifg=#edf5ff guibg=#996ddb gui=bold
-hi IncSearch ctermfg=234 ctermbg=213 cterm=bold guifg=#1e222c guibg=#fe7ecd gui=bold
-hi Search ctermfg=234 ctermbg=81 cterm=NONE guifg=#1e222c guibg=#56c7ee gui=NONE
-hi Pmenu ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
-hi PmenuSel ctermfg=238 ctermbg=252 cterm=bold guifg=#3b4351 guibg=#c3d5ec gui=bold
-hi PmenuSbar ctermbg=234 cterm=NONE guibg=#1e222c gui=NONE
-hi PmenuThumb ctermbg=241 cterm=NONE guibg=#586374 gui=NONE
-hi TabLine ctermfg=234 ctermbg=241 cterm=NONE guifg=#1e222c guibg=#586374 gui=NONE
-hi TabLineSel ctermfg=234 ctermbg=162 cterm=bold guifg=#1e222c guibg=#e242ac gui=bold
-hi TabLineFill ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
-hi Terminal ctermfg=255 ctermbg=236 cterm=NONE guifg=#edf5ff guibg=#2a303b gui=NONE
-hi SpellBad cterm=undercurl gui=undercurl
-hi SpellCap cterm=undercurl gui=undercurl
-hi SpellRare cterm=undercurl gui=undercurl
-hi SpellLocal cterm=undercurl gui=undercurl
-hi DiffAdd ctermfg=38 ctermbg=23 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
-hi DiffChange ctermfg=162 ctermbg=89 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
-hi DiffDelete ctermfg=161 ctermbg=52 cterm=NONE guifg=#e91e63 guibg=#681c36 gui=NONE
-hi DiffText ctermfg=218 ctermbg=89 cterm=bold guifg=#ffc3e4 guibg=#68024b gui=bold
-hi diffAdded ctermfg=38 ctermbg=23 cterm=NONE guifg=#169ec4 guibg=#064253 gui=NONE
-hi diffRemoved ctermfg=162 ctermbg=89 cterm=NONE guifg=#e242ac guibg=#68024b gui=NONE
-hi Directory ctermfg=44 cterm=NONE guifg=#36c2c2 gui=NONE
-hi ErrorMsg ctermfg=161 ctermbg=NONE cterm=NONE guifg=#e91e63 guibg=NONE gui=NONE
-hi WarningMsg ctermfg=98 cterm=NONE guifg=#996ddb gui=NONE
-hi MoreMsg ctermfg=68 cterm=NONE guifg=#537dd5 gui=NONE
-hi ModeMsg cterm=bold gui=bold
-hi Question cterm=NONE guifg=fg gui=NONE
-hi WildMenu ctermfg=255 ctermbg=241 cterm=bold guifg=#edf5ff guibg=#586374 gui=bold
-hi ColorColumn ctermfg=NONE ctermbg=52 cterm=NONE guifg=NONE guibg=#681c36 gui=NONE
-hi Conceal ctermfg=252 ctermbg=238 cterm=NONE guifg=#c3d5ec guibg=#3b4351 gui=NONE
+for [hl_group, def] in items(s:colors)
+    let processed_def = {}
+    for [key, val] in items(def)
+        if key ==# 'fg'
+            if type(val) == type('')
+                let processed_def['guifg'] = val
+                let processed_def['ctermfg'] = val
+            else
+                let processed_def['guifg'] = val[0]
+                let processed_def['ctermfg'] = val[1]
+            endif
+        elseif key ==# 'bg'
+            if type(val) == type('')
+                let processed_def['guibg'] = val
+                let processed_def['ctermbg'] = val
+            else
+                let processed_def['guibg'] = val[0]
+                let processed_def['ctermbg'] = val[1]
+            endif
+        elseif key ==# 'deco'
+            if type(val) == type('')
+                let processed_def['gui'] = val
+                let processed_def['cterm'] = val
+            else
+                let processed_def['gui'] = val[0]
+                let processed_def['cterm'] = val[1]
+            endif
+        endif
+    endfor
+    execute 'hi ' . hl_group . ' ' . join(map(items(processed_def), 'v:val[0] . "=" . v:val[1]'), ' ')
+endfor
+
+if has('nvim')
+    let g:terminal_color_0 = s:base02[0]
+    let g:terminal_color_8 = s:base00[0]
+
+    let g:terminal_color_1 = s:red1[0]
+    let g:terminal_color_9 = s:magenta1[0]
+
+    let g:terminal_color_2 = s:cyan1[0]
+    let g:terminal_color_10 = s:cyan2[0]
+
+    let g:terminal_color_3 = s:magenta2[0]
+    let g:terminal_color_11 = s:magenta3[0]
+
+    let g:terminal_color_4 = s:blue1[0]
+    let g:terminal_color_12 = s:blue2[0]
+
+    let g:terminal_color_5 = s:magenta01[0]
+    let g:terminal_color_13 = s:magenta1[0]
+
+    let g:terminal_color_6 = s:violet1[0]
+    let g:terminal_color_14 = s:violet2[0]
+
+    let g:terminal_color_7 = s:base2[0]
+    let g:terminal_color_15 = s:base3[0]
+endif
