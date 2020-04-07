@@ -34,6 +34,8 @@ let s:magenta01    = ['#68024b',  89] " #68024b
 let s:magenta1     = ['#e242ac', 162] " #e242ac
 let s:magenta2     = ['#fe7ecd', 213] " #fe7ecd
 let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
+let s:orange1      = ['#d65d0e', 166] " #d65d0e
+let s:orange2      = ['#fe8019', 208] " #fe8019
 
 let s:fg = s:base2
 let s:bg = s:base03
@@ -159,14 +161,14 @@ if has('nvim')
     let g:terminal_color_2 = s:cyan1[0]
     let g:terminal_color_10 = s:cyan2[0]
 
-    let g:terminal_color_3 = s:magenta2[0]
-    let g:terminal_color_11 = s:magenta3[0]
+    let g:terminal_color_3 = s:orange1[0]
+    let g:terminal_color_11 = s:orange2[0]
 
     let g:terminal_color_4 = s:blue1[0]
     let g:terminal_color_12 = s:blue2[0]
 
-    let g:terminal_color_5 = s:magenta01[0]
-    let g:terminal_color_13 = s:magenta1[0]
+    let g:terminal_color_5 = s:magenta2[0]
+    let g:terminal_color_13 = s:magenta3[0]
 
     let g:terminal_color_6 = s:violet1[0]
     let g:terminal_color_14 = s:violet2[0]
