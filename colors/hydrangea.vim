@@ -52,7 +52,7 @@ let s:colors['Folded']         = { 'fg': s:base03,   'bg': s:base00,    'deco': 
 let s:colors['Title']          = { 'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
 let s:colors['StatusLine']     = { 'fg': s:base03,   'bg': s:base2,     'deco': 'NONE'}
 let s:colors['StatusLineNC']   = { 'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
-let s:colors['VertSplit']      = { 'fg': s:base00,   'bg': s:base00,    'deco': 'NONE'}
+let s:colors['VertSplit']      = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']         = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']   = { 'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
 let s:colors['SignColumn']     = { 'fg': s:base2,    'bg': 'NONE',      'deco': 'NONE'}
@@ -60,7 +60,7 @@ let s:colors['FoldColumn']     = { 'fg': s:blue1,    'bg': 'NONE',      'deco': 
 let s:colors['SpecialKey']     = { 'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['NonText']        = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Whitespace']     = { 'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['EndOfBuffer']    = { 'fg': s:bg,       'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['EndOfBuffer']    = { 'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['MatchParen']     = { 'fg': s:red1,     'bg': 'NONE',      'deco': 'bold,underline'}
 
 let s:colors['Comment']        = { 'fg': s:base00,   'deco': 'italic'}
@@ -109,12 +109,12 @@ let s:colors['DiffText']       = { 'fg': s:magenta3, 'bg': s:magenta01, 'deco': 
 let s:colors['diffAdded']      = { 'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['diffRemoved']    = { 'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
 
-let s:colors['Directory']      = { 'fg': s:teal2,    'deco': 'NONE'}
-let s:colors['ErrorMsg']       = { 'fg': s:red1,     'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['WarningMsg']     = { 'fg': s:violet1,  'deco': 'NONE'}
-let s:colors['MoreMsg']        = { 'fg': s:blue1,    'deco': 'NONE'}
-let s:colors['ModeMsg']        = { 'fg': s:base03,   'bg': s:blue1,     'deco': 'bold'}
-let s:colors['Question']       = { 'fg': s:magenta2, 'deco': 'NONE'}
+let s:colors['Directory']      = { 'fg': s:cyan1,    'deco': 'NONE'}
+let s:colors['ErrorMsg']       = { 'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
+let s:colors['WarningMsg']     = { 'fg': s:violet1,  'deco': 'bold'}
+let s:colors['MoreMsg']        = { 'fg': s:blue1,    'deco': 'bold'}
+let s:colors['ModeMsg']        = { 'fg': s:blue1,    'deco': 'bold'}
+let s:colors['Question']       = { 'fg': s:magenta2, 'deco': 'bold'}
 let s:colors['WildMenu']       = { 'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
 let s:colors['ColorColumn']    = { 'fg': 'NONE',     'bg': s:red01,     'deco': 'NONE'}
 let s:colors['Conceal']        = { 'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
@@ -122,7 +122,14 @@ let s:colors['Conceal']        = { 'fg': s:base2,    'bg': s:base01,    'deco': 
 set background=dark
 
 for [hl_group, def] in items(s:colors)
-    let processed_def = {}
+    let processed_def = {
+                \ 'guifg': 'NONE',
+                \ 'ctermfg': 'NONE',
+                \ 'guibg': 'NONE',
+                \ 'ctermbg': 'NONE',
+                \ 'gui': 'NONE',
+                \ 'cterm': 'NONE',
+                \ }
     for [key, val] in items(def)
         if key ==# 'fg'
             if type(val) == type('')
