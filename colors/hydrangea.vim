@@ -116,7 +116,7 @@ let s:colors['MoreMsg']        = { 'fg': s:blue1,    'deco': 'bold'}
 let s:colors['ModeMsg']        = { 'fg': s:blue1,    'deco': 'bold'}
 let s:colors['Question']       = { 'fg': s:magenta2, 'deco': 'bold'}
 let s:colors['WildMenu']       = { 'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
-let s:colors['ColorColumn']    = { 'fg': 'NONE',     'bg': s:red01,     'deco': 'NONE'}
+let s:colors['ColorColumn']    = { 'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
 let s:colors['Conceal']        = { 'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
 
 set background=dark
