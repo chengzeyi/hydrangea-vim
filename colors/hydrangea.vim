@@ -95,7 +95,7 @@ let s:colors['PmenuThumb']     = {'bg': s:base00,   'deco': 'NONE'}
 let s:colors['TabLine']        = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['TabLineSel']     = {'fg': s:base03,   'bg': s:magenta1,  'deco': 'bold'}
 let s:colors['TabLineFill']    = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
-let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:base02,    'deco': 'NONE'}
+" let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:base02,    'deco': 'NONE'}
 
 let s:colors['SpellBad']       = {'deco': 'undercurl'}
 let s:colors['SpellCap']       = {'deco': 'undercurl'}
