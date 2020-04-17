@@ -161,28 +161,18 @@ for [hl_group, def] in items(s:colors)
     execute 'hi ' . hl_group . ' ' . join(map(items(processed_def), 'v:val[0] . "=" . v:val[1]'), ' ')
 endfor
 
+let s:terminal_ansi_colors = [
+            \ s:base02[0], s:red1[0], s:cyan1[0], s:orange1[0],
+            \ s:blue1[0], s:magenta2[0], s:violet1[0], s:base2[0],
+            \ s:base00[0], s:magenta1[0], s:cyan2[0], s:orange2[0],
+            \ s:blue2[0], s:magenta3[0], s:violet2[0], s:base3[0]
+            \ ]
+
 if has('nvim')
-    let g:terminal_color_0 = s:base02[0]
-    let g:terminal_color_8 = s:base00[0]
-
-    let g:terminal_color_1 = s:red1[0]
-    let g:terminal_color_9 = s:magenta1[0]
-
-    let g:terminal_color_2 = s:cyan1[0]
-    let g:terminal_color_10 = s:cyan2[0]
-
-    let g:terminal_color_3 = s:orange1[0]
-    let g:terminal_color_11 = s:orange2[0]
-
-    let g:terminal_color_4 = s:blue1[0]
-    let g:terminal_color_12 = s:blue2[0]
-
-    let g:terminal_color_5 = s:magenta2[0]
-    let g:terminal_color_13 = s:magenta3[0]
-
-    let g:terminal_color_6 = s:violet1[0]
-    let g:terminal_color_14 = s:violet2[0]
-
-    let g:terminal_color_7 = s:base2[0]
-    let g:terminal_color_15 = s:base3[0]
+    for i in range(16)
+        exe 'let g:terminal_color_' . i . ' = "' . s:terminal_ansi_colors[i] . '"'
+    endfor
+elseif exists(':terminal')
+    let g:terminal_ansi_colors = s:terminal_ansi_colors
 endif
+
