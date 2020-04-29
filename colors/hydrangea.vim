@@ -105,7 +105,7 @@ let s:colors['SpellLocal']     = {'deco': 'undercurl'}
 let s:colors['DiffAdd']        = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['DiffChange']     = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
 let s:colors['DiffDelete']     = {'fg': s:red1,     'bg': s:red01,     'deco': 'NONE'}
-let s:colors['DiffText']       = {'fg': s:magenta3, 'bg': s:magenta01, 'deco': 'bold'}
+let s:colors['DiffText']       = {'fg': s:magenta2, 'bg': s:magenta1,  'deco': 'bold'}
 
 let s:colors['diffAdded']      = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
