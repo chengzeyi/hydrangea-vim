@@ -51,7 +51,7 @@ let s:colors['VisualNOS']      = {'fg': s:fg,       'deco': 'underline'}
 
 let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:base02,    'deco': 'NONE'}
 let s:colors['Title']          = {'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
-let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:base2,     'deco': 'NONE'}
+let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:base2,     'deco': 'bold'}
 let s:colors['StatusLineNC']   = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['VertSplit']      = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']         = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
@@ -105,7 +105,7 @@ let s:colors['SpellLocal']     = {'deco': 'undercurl'}
 let s:colors['DiffAdd']        = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['DiffChange']     = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
 let s:colors['DiffDelete']     = {'fg': s:red1,     'bg': s:red01,     'deco': 'NONE'}
-let s:colors['DiffText']       = {'fg': s:magenta2, 'bg': s:magenta1,  'deco': 'bold'}
+let s:colors['DiffText']       = {'fg': s:magenta01,'bg': s:magenta1,  'deco': 'bold'}
 
 let s:colors['diffAdded']      = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
