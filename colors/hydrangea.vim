@@ -18,7 +18,10 @@ let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
 let s:red01        = ['#681c36',  52] " #681c36
 let s:red1         = ['#e91e63', 161] " #e91e63
+let s:red2         = ['#ef6191', 168] " #ef6191
+let s:red3         = ['#f8bbd0', 175] " #f8bbd0
 let s:teal01       = ['#134242',  23] " #134242
+let s:teal1        = ['#258787',  37] " #258787
 let s:teal2        = ['#36c2c2',  44] " #36c2c2
 let s:cyan01       = ['#064253',  23] " #064253
 let s:cyan1        = ['#169ec4',  38] " #169ec4
@@ -83,8 +86,8 @@ let s:colors['Special']        = {'fg': s:blue2,    'bg': 'NONE',      'deco': '
 let s:colors['SpecialComment'] = {'fg': s:blue2,    'bg': 'NONE',      'deco': 'italic'}
 let s:colors['Underlined']     = {'deco': 'underline'}
 let s:colors['Ignore']         = {'fg': s:bg}
-let s:colors['Error']          = {'fg': s:base3,    'bg': s:red1,      'deco': 'bold'}
-let s:colors['Todo']           = {'fg': s:base3,    'bg': s:violet1,   'deco': 'bold'}
+let s:colors['Error']          = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
+let s:colors['Todo']           = {'fg': s:orange2,  'bg': 'NONE',      'deco': 'bold'}
 
 let s:colors['IncSearch']      = {'fg': s:base03,   'bg': s:magenta2,  'deco': 'bold'}
 let s:colors['Search']         = {'fg': s:base03,   'bg': s:cyan2,     'deco': 'NONE'}
@@ -112,10 +115,10 @@ let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': '
 
 let s:colors['Directory']      = {'fg': s:cyan1,    'deco': 'NONE'}
 let s:colors['ErrorMsg']       = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
-let s:colors['WarningMsg']     = {'fg': s:violet1,  'deco': 'bold'}
+let s:colors['WarningMsg']     = {'fg': s:orange2,  'deco': 'bold'}
 let s:colors['MoreMsg']        = {'fg': s:blue1,    'deco': 'bold'}
 let s:colors['ModeMsg']        = {'fg': s:blue1,    'deco': 'bold'}
-let s:colors['Question']       = {'fg': s:magenta2, 'deco': 'bold'}
+let s:colors['Question']       = {'fg': s:violet1,  'deco': 'bold'}
 let s:colors['WildMenu']       = {'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
 let s:colors['ColorColumn']    = {'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
 let s:colors['Conceal']        = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
@@ -162,10 +165,10 @@ for [hl_group, def] in items(s:colors)
 endfor
 
 let s:terminal_ansi_colors = [
-            \ s:base02[0], s:red1[0], s:cyan1[0], s:orange1[0],
-            \ s:blue1[0], s:magenta2[0], s:violet1[0], s:base2[0],
-            \ s:base00[0], s:magenta1[0], s:cyan2[0], s:orange2[0],
-            \ s:blue2[0], s:magenta3[0], s:violet2[0], s:base3[0]
+            \ s:base01[0], s:red1[0], s:cyan1[0], s:orange1[0],
+            \ s:blue1[0], s:magenta1[0], s:violet1[0], s:base2[0],
+            \ s:base00[0], s:red2[0], s:cyan2[0], s:orange2[0],
+            \ s:blue2[0], s:magenta2[0], s:violet2[0], s:base3[0]
             \ ]
 
 if has('nvim')
