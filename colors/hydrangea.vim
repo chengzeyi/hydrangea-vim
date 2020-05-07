@@ -18,10 +18,10 @@ let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
 let s:red01        = ['#681c36',  52] " #681c36
 let s:red1         = ['#e91e63', 161] " #e91e63
-let s:red2         = ['#ef6191', 168] " #ef6191
-let s:red3         = ['#f8bbd0', 175] " #f8bbd0
+let s:red2         = ['#ef6191', 204] " #ef6191
+let s:red3         = ['#f8bbd0', 218] " #f8bbd0
 let s:teal01       = ['#134242',  23] " #134242
-let s:teal1        = ['#258787',  37] " #258787
+let s:teal1        = ['#258787',  30] " #258787
 let s:teal2        = ['#36c2c2',  44] " #36c2c2
 let s:cyan01       = ['#064253',  23] " #064253
 let s:cyan1        = ['#169ec4',  38] " #169ec4
@@ -40,23 +40,24 @@ let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
 let s:orange1      = ['#d65d0e', 166] " #d65d0e
 let s:orange2      = ['#fe8019', 208] " #fe8019
 
-let s:fg = s:base2
-let s:bg = s:base03
+let s:fg   = s:base2
+let s:bg   = s:base02
+let s:albg = s:base03
 let s:colors                   = {}
 let s:colors['Normal']         = {'fg': s:fg,       'bg': s:bg}
 let s:colors['bold']           = {'deco': 'bold'}
 let s:colors['Cursor']         = {'fg': s:bg,       'bg': s:fg,        'deco': 'NONE'}
 let s:colors['CursorIM']       = {'fg': s:bg,       'bg': s:fg}
-let s:colors['CursorLine']     = {'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
-let s:colors['CursorColumn']   = {'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
+let s:colors['CursorLine']     = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
+let s:colors['CursorColumn']   = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Visual']         = {'fg': 'NONE',     'bg': s:base01,    'deco': 'NONE'}
 let s:colors['VisualNOS']      = {'fg': s:fg,       'deco': 'underline'}
 
-let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:base02,    'deco': 'NONE'}
+let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Title']          = {'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
 let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:base2,     'deco': 'bold'}
 let s:colors['StatusLineNC']   = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
-let s:colors['VertSplit']      = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['VertSplit']      = {'fg': s:albg,     'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']         = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']   = {'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
 let s:colors['SignColumn']     = {'fg': s:base2,    'bg': 'NONE',      'deco': 'NONE'}
@@ -98,7 +99,7 @@ let s:colors['PmenuThumb']     = {'bg': s:base00,   'deco': 'NONE'}
 let s:colors['TabLine']        = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['TabLineSel']     = {'fg': s:base03,   'bg': s:magenta1,  'deco': 'bold'}
 let s:colors['TabLineFill']    = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
-" let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:base02,    'deco': 'NONE'}
+" let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:albg,      'deco': 'NONE'}
 
 let s:colors['SpellBad']       = {'deco': 'undercurl'}
 let s:colors['SpellCap']       = {'deco': 'undercurl'}
@@ -120,7 +121,7 @@ let s:colors['MoreMsg']        = {'fg': s:blue1,    'deco': 'bold'}
 let s:colors['ModeMsg']        = {'fg': s:blue1,    'deco': 'bold'}
 let s:colors['Question']       = {'fg': s:violet1,  'deco': 'bold'}
 let s:colors['WildMenu']       = {'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
-let s:colors['ColorColumn']    = {'fg': 'NONE',     'bg': s:base02,    'deco': 'NONE'}
+let s:colors['ColorColumn']    = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Conceal']        = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
 
 set background=dark
