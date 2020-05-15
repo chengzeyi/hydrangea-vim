@@ -1,29 +1,34 @@
 " based on two-firewatch's airline theme
 
-let s:base03    = ["#1e222c", 234]  " L* = 44
-let s:base02    = ["#292d3e", 236]  " L* = 50
-let s:base01    = ["#3b4351", 238]  " L* = 58
-let s:base00    = ["#586374", 241]  " L* = 68
-let s:base2     = ["#c3d5ec", 252]  " L* = 93
-let s:base3     = ["#edf5ff", 255]  " L* = 99
-let s:red01     = ["#681c36",  52]
-let s:red1      = ["#e91e63", 161]
-let s:teal01    = ["#134242",  23]
-let s:teal2     = ["#36c2c2",  44]
-let s:cyan01    = ["#064253",  23]
-let s:cyan1     = ["#169ec4",  38]
-let s:cyan2     = ["#56c7ee",  81]
-let s:cyan3     = ["#bcebfe", 153]
-let s:blue1     = ["#537dd5",  68]
-let s:blue2     = ['#8baafe', 111]
-let s:blue3     = ['#c9d4fd', 189]
-let s:violet1   = ["#996ddb",  98]
-let s:violet2   = ["#c398fe", 183]
-let s:violet3   = ["#e2ccfe", 225]
-let s:magenta01 = ["#68024b",  89]
-let s:magenta1  = ["#e242ac", 162]
-let s:magenta2  = ["#fe7ecd", 213]
-let s:magenta3  = ["#ffc3e4", 218]
+let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
+let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
+let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
+let s:base00       = ['#586374', 241] " L* = 68 #586374
+let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
+let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
+let s:red01        = ['#681c36',  52] " #681c36
+let s:red1         = ['#e91e63', 161] " #e91e63
+let s:red2         = ['#f280a7', 211] " #f280a7
+let s:red3         = ['#f8bbd0', 218] " #f8bbd0
+let s:teal01       = ['#134242',  23] " #134242
+let s:teal1        = ['#258787',  30] " #258787
+let s:teal2        = ['#36c2c2',  73] " #36c2c2
+let s:cyan01       = ['#064253',  23] " #064253
+let s:cyan1        = ['#169ec4',  38] " #169ec4
+let s:cyan2        = ['#56c7ee',  81] " #56c7ee
+let s:cyan3        = ['#bcebfe', 153] " #bcebfe
+let s:blue1        = ['#537dd5',  68] " #537dd5
+let s:blue2        = ['#8baafe', 111] " #8baafe
+let s:blue3        = ['#c9d4fd', 189] " #c9d4fd
+let s:violet1      = ['#996ddb',  98] " #996ddb
+let s:violet2      = ['#c398fe', 141] " #c398fe
+let s:violet3      = ['#e2ccfe', 189] " #e2ccfe
+let s:magenta01    = ['#68024b',  53] " #68024b
+let s:magenta1     = ['#e242ac', 169] " #e242ac
+let s:magenta2     = ['#fe7ecd', 212] " #fe7ecd
+let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
+let s:orange1      = ['#d65d0e', 166] " #d65d0e
+let s:orange2      = ['#fe8019', 208] " #fe8019
 
 function! s:gen(a, b) abort
   return [a:a[0], a:b[0], a:a[1], a:b[1]]
