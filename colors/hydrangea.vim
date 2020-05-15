@@ -18,7 +18,7 @@ let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
 let s:red01        = ['#681c36',  52] " #681c36
 let s:red1         = ['#e91e63', 161] " #e91e63
-let s:red2         = ['#ef6191', 204] " #ef6191
+let s:red2         = ['#f280a7', 211] " #f280a7
 let s:red3         = ['#f8bbd0', 218] " #f8bbd0
 let s:teal01       = ['#134242',  23] " #134242
 let s:teal1        = ['#258787',  30] " #258787
@@ -101,10 +101,10 @@ let s:colors['TabLineSel']     = {'fg': s:base03,   'bg': s:magenta1,  'deco': '
 let s:colors['TabLineFill']    = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
 " let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:albg,      'deco': 'NONE'}
 
-let s:colors['SpellBad']       = {'deco': 'undercurl'}
-let s:colors['SpellCap']       = {'deco': 'undercurl'}
-let s:colors['SpellRare']      = {'deco': 'undercurl'}
-let s:colors['SpellLocal']     = {'deco': 'undercurl'}
+let s:colors['SpellBad']       = {'sp': s:red1,                        'deco': 'undercurl'}
+let s:colors['SpellCap']       = {'sp': s:red2,                        'deco': 'undercurl'}
+let s:colors['SpellLocal']     = {'sp': s:orange1,                     'deco': 'undercurl'}
+let s:colors['SpellRare']      = {'sp': s:orange2,                     'deco': 'undercurl'}
 
 let s:colors['DiffAdd']        = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['DiffChange']     = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
@@ -133,7 +133,8 @@ for [hl_group, def] in items(s:colors)
                 \ 'guibg': 'NONE',
                 \ 'ctermbg': 'NONE',
                 \ 'gui': 'NONE',
-                \ 'cterm': 'NONE'
+                \ 'cterm': 'NONE',
+                \ 'guisp': 'NONE'
                 \ }
     for [key, val] in items(def)
         if key ==# 'fg'
@@ -159,6 +160,12 @@ for [hl_group, def] in items(s:colors)
             else
                 let processed_def['gui'] = val[0]
                 let processed_def['cterm'] = val[1]
+            endif
+        elseif key ==# 'sp'
+            if type(val) == type('')
+                let processed_def['guisp'] = val
+            else
+                let processed_def['guisp'] = val[0]
             endif
         endif
     endfor
