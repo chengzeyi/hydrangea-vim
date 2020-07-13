@@ -55,7 +55,7 @@ let s:colors['VisualNOS']      = {'fg': s:fg,       'deco': 'underline'}
 
 let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Title']          = {'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
-let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:blue2,     'deco': 'bold'}
+let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:base2,     'deco': 'bold'}
 let s:colors['StatusLineNC']   = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['VertSplit']      = {'fg': s:albg,     'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']         = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
@@ -92,10 +92,10 @@ let s:colors['Todo']           = {'fg': s:violet2,  'bg': 'NONE',      'deco': '
 
 let s:colors['IncSearch']      = {'fg': s:base03,   'bg': s:magenta2,  'deco': 'bold'}
 let s:colors['Search']         = {'fg': s:base03,   'bg': s:cyan2,     'deco': 'NONE'}
-let s:colors['Pmenu']          = {'fg': s:base03,   'bg': s:blue3,     'deco': 'NONE'}
-let s:colors['PmenuSel']       = {'fg': s:base03,   'bg': s:blue2,     'deco': 'bold'}
-let s:colors['PmenuSbar']      = {'bg': s:base00,   'deco': 'NONE'}
-let s:colors['PmenuThumb']     = {'bg': s:base01,    'deco': 'NONE'}
+let s:colors['Pmenu']          = {'fg': s:base2,    'bg': s:base00,    'deco': 'NONE'}
+let s:colors['PmenuSel']       = {'fg': s:base3,    'bg': s:blue1,     'deco': 'bold'}
+let s:colors['PmenuSbar']      = {'bg': s:base01,   'deco': 'NONE'}
+let s:colors['PmenuThumb']     = {'bg': s:base2,    'deco': 'NONE'}
 let s:colors['TabLine']        = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['TabLineSel']     = {'fg': s:base03,   'bg': s:magenta1,  'deco': 'bold'}
 let s:colors['TabLineFill']    = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
