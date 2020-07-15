@@ -88,7 +88,7 @@ let s:colors['SpecialComment'] = {'fg': s:blue2,    'bg': 'NONE',      'deco': '
 let s:colors['Underlined']     = {'deco': 'underline'}
 let s:colors['Ignore']         = {'fg': s:bg}
 let s:colors['Error']          = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
-let s:colors['Todo']           = {'fg': s:violet2,  'bg': 'NONE',      'deco': 'bold,italic'}
+let s:colors['Todo']           = {'fg': s:orange2,  'bg': 'NONE',      'deco': 'bold,italic'}
 
 let s:colors['IncSearch']      = {'fg': s:base03,   'bg': s:magenta2,  'deco': 'bold'}
 let s:colors['Search']         = {'fg': s:base03,   'bg': s:cyan2,     'deco': 'NONE'}
@@ -98,7 +98,7 @@ let s:colors['PmenuSbar']      = {'bg': s:base01,   'deco': 'NONE'}
 let s:colors['PmenuThumb']     = {'bg': s:base2,    'deco': 'NONE'}
 let s:colors['TabLine']        = {'fg': s:base03,   'bg': s:base00,    'deco': 'NONE'}
 let s:colors['TabLineSel']     = {'fg': s:base03,   'bg': s:magenta1,  'deco': 'bold'}
-let s:colors['TabLineFill']    = {'fg': s:base2,    'bg': s:base01,    'deco': 'NONE'}
+let s:colors['TabLineFill']    = {'fg': s:base03,   'bg': s:base01,    'deco': 'NONE'}
 " let s:colors['Terminal']       = {'fg': s:base3,    'bg': s:albg,      'deco': 'NONE'}
 
 let s:colors['SpellBad']       = {'sp': s:red1,                        'deco': 'undercurl'}
