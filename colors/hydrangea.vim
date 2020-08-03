@@ -77,8 +77,8 @@ let s:colors['Identifier']     = {'fg': s:base3,    'deco': 'NONE'}
 let s:colors['Function']       = {'fg': s:violet2,  'deco': 'NONE'}
 let s:colors['Statement']      = {'fg': s:blue1,    'deco': 'NONE'}
 let s:colors['Operator']       = {'fg': s:blue2,    'deco': 'NONE'}
-let s:colors['Include']        = {'fg': s:violet1,  'deco': 'NONE'}
-let s:colors['PreProc']        = {'fg': s:violet2,  'deco': 'NONE'}
+let s:colors['Include']        = {'fg': s:violet1,  'deco': 'italic'}
+let s:colors['PreProc']        = {'fg': s:violet1,  'deco': 'NONE'}
 let s:colors['Type']           = {'fg': s:magenta1, 'deco': 'NONE'}
 let s:colors['StorageClass']   = {'fg': s:blue2,    'deco': 'NONE'}
 let s:colors['Structure']      = {'fg': s:magenta1, 'deco': 'NONE'}
@@ -112,7 +112,9 @@ let s:colors['DiffDelete']     = {'fg': s:red1,     'bg': s:red01,     'deco': '
 let s:colors['DiffText']       = {'fg': s:magenta01,'bg': s:magenta1,  'deco': 'bold'}
 
 let s:colors['diffAdded']      = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:magenta01, 'deco': 'NONE'}
+let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:red01,     'deco': 'NONE'}
+
+let s:colors['qfLineNr']       = {'fg': s:base3}
 
 let s:colors['Directory']      = {'fg': s:cyan1,    'deco': 'NONE'}
 let s:colors['ErrorMsg']       = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
