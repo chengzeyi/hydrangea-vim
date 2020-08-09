@@ -55,7 +55,7 @@ let s:colors['VisualNOS']      = {'fg': s:fg,       'deco': 'underline'}
 
 let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Title']          = {'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
-let s:colors['StatusLine']     = {'fg': s:base01,   'bg': s:cyan1,     'deco': 'bold'}
+let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:cyan1,     'deco': 'bold'}
 let s:colors['StatusLineNC']   = {'fg': s:base00,   'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['VertSplit']      = {'fg': s:albg,     'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']         = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
@@ -120,7 +120,7 @@ let s:colors['Directory']      = {'fg': s:cyan1,    'deco': 'NONE'}
 let s:colors['ErrorMsg']       = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold'}
 let s:colors['WarningMsg']     = {'fg': s:orange2,  'deco': 'bold'}
 let s:colors['MoreMsg']        = {'fg': s:blue1,    'deco': 'bold'}
-let s:colors['ModeMsg']        = {'fg': s:blue1,    'deco': 'bold'}
+let s:colors['ModeMsg']        = {'fg': s:base03,   'bg': s:blue1,     'deco': 'bold,italic'}
 let s:colors['Question']       = {'fg': s:violet1,  'deco': 'bold'}
 let s:colors['WildMenu']       = {'fg': s:base2,    'bg': s:base01,    'deco': 'bold'}
 let s:colors['ColorColumn']    = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
