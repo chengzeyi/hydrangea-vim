@@ -51,21 +51,21 @@ let s:colors['CursorIM']       = {'fg': s:bg,       'bg': s:fg}
 let s:colors['CursorLine']     = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
 let s:colors['CursorColumn']   = {'fg': 'NONE',     'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Visual']         = {'fg': 'NONE',     'bg': s:base01,    'deco': 'NONE'}
-let s:colors['VisualNOS']      = {'fg': s:fg,       'deco': 'underline'}
+let s:colors['VisualNOS']      = {'fg': 'NONE',     'bg': s:base01,    'deco': 'NONE'}
 
 let s:colors['Folded']         = {'fg': s:blue1,    'bg': s:albg,      'deco': 'NONE'}
 let s:colors['Title']          = {'fg': s:magenta1, 'bg': 'NONE',      'deco': 'bold'}
 let s:colors['StatusLine']     = {'fg': s:base03,   'bg': s:cyan1,     'deco': 'bold'}
 let s:colors['StatusLineNC']   = {'fg': s:base00,   'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['VertSplit']      = {'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['VertSplit']      = {'fg': s:albg,     'bg': s:albg,      'deco': 'NONE'}
 let s:colors['LineNr']         = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']   = {'fg': s:base3,    'bg': s:base00,    'deco': 'bold'}
-let s:colors['SignColumn']     = {'fg': s:base2,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['SignColumn']     = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['FoldColumn']     = {'fg': s:blue1,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['SpecialKey']     = {'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['NonText']        = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Whitespace']     = {'fg': s:base01,   'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['EndOfBuffer']    = {'fg': s:base00,   'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['EndOfBuffer']    = {'fg': s:bg,       'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['MatchParen']     = {'fg': s:red1,     'bg': 'NONE',      'deco': 'bold,strikethrough'}
 
 let s:colors['Comment']        = {'fg': s:base00,   'deco': 'italic'}
