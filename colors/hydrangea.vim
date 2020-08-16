@@ -121,6 +121,7 @@ let s:colors['diffAdded']      = {'fg': s:cyan1,    'bg': s:cyan01,    'deco': '
 let s:colors['diffRemoved']    = {'fg': s:magenta1, 'bg': s:red01,     'deco': 'NONE'}
 
 let s:colors['QuickFixLine']   = {'bg': s:red01,    'deco':'bold'}
+let s:colors['qfFileName']     = {'fg': s:magenta1}
 let s:colors['qfLineNr']       = {'fg': s:blue1}
 
 let s:colors['Directory']      = {'fg': s:cyan1,    'deco': 'NONE'}
