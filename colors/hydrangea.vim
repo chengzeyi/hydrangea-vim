@@ -47,7 +47,6 @@ let s:bg   = s:base03
 let s:dpbg = s:base04
 let s:colors                   = {}
 let s:colors['Normal']         = {'fg': s:fg,        'bg': s:bg}
-let s:colors['NormalNC']       = {'fg': s:fg,        'bg': s:dpbg}
 let s:colors['bold']           = {'deco': 'bold'}
 let s:colors['Cursor']         = {'fg': s:bg,        'bg': s:fg,        'deco': 'NONE'}
 let s:colors['CursorIM']       = {'fg': s:bg,        'bg': s:fg}
@@ -65,7 +64,11 @@ let s:colors['LineNr']         = {'fg': s:base00,    'bg': 'NONE',      'deco': 
 let s:colors['CursorLineNr']   = {'fg': s:base3,     'bg': s:base00,    'deco': 'bold'}
 let s:colors['SignColumn']     = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['FoldColumn']     = {'fg': s:blue1,     'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['SpecialKey']     = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+if has('nvim-0.2.0')
+    let s:colors['SpecialKey']     = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
+else
+    let s:colors['SpecialKey']     = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+endif
 let s:colors['NonText']        = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Whitespace']     = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['EndOfBuffer']    = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
