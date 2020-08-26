@@ -152,36 +152,36 @@ for [hl_group, def] in items(s:colors)
                 \ 'cterm': 'NONE',
                 \ 'guisp': 'NONE'
                 \ }
-    for [key, val] in items(def)
-        if key ==# 'fg'
-            if type(val) == type('')
-                let processed_def['guifg'] = val
-                let processed_def['ctermfg'] = val
+    for key_val in items(def)
+        if key_val[0] ==# 'fg'
+            if type(key_val[1]) == type('')
+                let processed_def['guifg'] = key_val[1]
+                let processed_def['ctermfg'] = key_val[1]
             else
-                let processed_def['guifg'] = val[0]
-                let processed_def['ctermfg'] = val[1]
+                let processed_def['guifg'] = key_val[1][0]
+                let processed_def['ctermfg'] = key_val[1][1]
             endif
-        elseif key ==# 'bg'
-            if type(val) == type('')
-                let processed_def['guibg'] = val
-                let processed_def['ctermbg'] = val
+        elseif key_val[0] ==# 'bg'
+            if type(key_val[1]) == type('')
+                let processed_def['guibg'] = key_val[1]
+                let processed_def['ctermbg'] = key_val[1]
             else
-                let processed_def['guibg'] = val[0]
-                let processed_def['ctermbg'] = val[1]
+                let processed_def['guibg'] = key_val[1][0]
+                let processed_def['ctermbg'] = key_val[1][1]
             endif
-        elseif key ==# 'deco'
-            if type(val) == type('')
-                let processed_def['gui'] = val
-                let processed_def['cterm'] = val
+        elseif key_val[0] ==# 'deco'
+            if type(key_val[1]) == type('')
+                let processed_def['gui'] = key_val[1]
+                let processed_def['cterm'] = key_val[1]
             else
-                let processed_def['gui'] = val[0]
-                let processed_def['cterm'] = val[1]
+                let processed_def['gui'] = key_val[1][0]
+                let processed_def['cterm'] = key_val[1][1]
             endif
-        elseif key ==# 'sp'
-            if type(val) == type('')
-                let processed_def['guisp'] = val
+        elseif key_val[0] ==# 'sp'
+            if type(key_val[1]) == type('')
+                let processed_def['guisp'] = key_val[1]
             else
-                let processed_def['guisp'] = val[0]
+                let processed_def['guisp'] = key_val[1][0]
             endif
         endif
     endfor
