@@ -201,7 +201,7 @@ let s:terminal_ansi_colors = [
             \ ]
 
 if has('nvim')
-    for i in range(16)
+    for i in range(len(s:terminal_ansi_colors))
         exe 'let g:terminal_color_' . i . ' = "' . s:terminal_ansi_colors[i] . '"'
     endfor
 elseif exists(':terminal')
