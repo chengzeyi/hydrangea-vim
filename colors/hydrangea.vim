@@ -74,9 +74,12 @@ endif
 let s:colors['NonText']          = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Whitespace']       = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['EndOfBuffer']      = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
-if has('patch-8.0.1038')
-    let s:colors['MatchParen']       = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold,strikethrough'}
-endif
+let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco': 'bold'}
+" if has('patch-8.0.1038')
+"     let s:colors['MatchParen']       = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold,strikethrough'}
+" else
+    " let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco': 'bold'}
+" endif
 
 let s:colors['Comment']          = {'fg': s:base00,    'deco': 'italic'}
 let s:colors['Constant']         = {'fg': s:teal2,     'bg': 'NONE',      'deco': 'NONE'}
