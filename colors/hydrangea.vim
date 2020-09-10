@@ -14,7 +14,7 @@ let s:base04       = ['#171a22', 233]
 let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
 let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
 let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
-let s:base00       = ['#586374', 242] " L* = 68 #586374
+let s:base00       = ['#586374', 243] " L* = 68 #586374
 let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
 let s:red01        = ['#681c36',  52] " #681c36
