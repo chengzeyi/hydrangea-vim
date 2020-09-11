@@ -14,7 +14,7 @@ let s:base04       = ['#171a22', 233]
 let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
 let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
 let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
-let s:base00       = ['#586374', 243] " L* = 68 #586374
+let s:base00       = ['#586374', 240] " L* = 68 #586374
 let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
 let s:red01        = ['#681c36',  52] " #681c36
@@ -58,9 +58,9 @@ let s:colors['VisualNOS']        = {'fg': 'NONE',      'bg': s:base01,    'deco'
 let s:colors['Folded']           = {'fg': s:base00,    'bg': s:dpbg,      'deco': 'NONE'}
 let s:colors['Title']            = {'fg': s:magenta1,  'bg': 'NONE',      'deco': 'bold'}
 let s:colors['StatusLine']       = {'fg': s:bg,        'bg': s:cyan1,     'deco': 'bold'}
-let s:colors['StatusLineNC']     = {'fg': s:base00,    'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['StatusLineNC']     = {'fg': s:dpbg,      'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['StatusLineTerm']   = {'fg': s:bg,        'bg': s:teal1,     'deco': 'bold'}
-let s:colors['StatusLineTermNC'] = {'fg': s:base00,    'bg': s:teal01,    'deco': 'NONE'}
+let s:colors['StatusLineTermNC'] = {'fg': s:dpbg,      'bg': s:teal01,    'deco': 'NONE'}
 let s:colors['VertSplit']        = {'fg': s:albg,      'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']           = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']     = {'fg': s:base3,     'bg': s:base00,    'deco': 'bold'}
@@ -113,7 +113,7 @@ let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue1,     'deco'
 let s:colors['PmenuSbar']        = {'bg': s:base01,    'deco': 'NONE'}
 let s:colors['PmenuThumb']       = {'bg': s:base2,     'deco': 'NONE'}
 let s:colors['TabLine']          = {'fg': s:bg,        'bg': s:base00,    'deco': 'NONE'}
-let s:colors['TabLineSel']       = {'fg': s:bg,        'bg': s:magenta1,  'deco': 'NONE'}
+let s:colors['TabLineSel']       = {'fg': s:bg,        'bg': s:magenta1,  'deco': 'bold'}
 let s:colors['TabLineFill']      = {'fg': s:bg,        'bg': s:base01,    'deco': 'NONE'}
 " let s:colors['Terminal']       = {'fg': s:base3,     'bg': s:albg,      'deco': 'NONE'}
 
