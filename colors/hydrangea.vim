@@ -10,6 +10,12 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'hydrangea'
 
+if get(g:, 'hydrangea_italic', 1)
+    let s:italic = 'italic'
+else
+    let s:italic = 'NONE'
+endif
+
 let s:base04       = ['#171a22', 233]
 let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
 let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
@@ -28,9 +34,11 @@ let s:cyan01       = ['#064253',  23] " #064253
 let s:cyan1        = ['#169ec4',  38] " #169ec4
 let s:cyan2        = ['#56c7ee',  81] " #56c7ee
 let s:cyan3        = ['#bcebfe', 153] " #bcebfe
+let s:blue01       = ['#3A5795',  62] " #3A5795
 let s:blue1        = ['#537dd5',  68] " #537dd5
 let s:blue2        = ['#8baafe', 111] " #8baafe
 let s:blue3        = ['#c9d4fd', 189] " #c9d4fd
+let s:violet01     = ['#7A57AF',  92] " #7A57AF
 let s:violet1      = ['#996ddb',  98] " #996ddb
 let s:violet2      = ['#c398fe', 141] " #c398fe
 let s:violet3      = ['#e2ccfe', 189] " #e2ccfe
@@ -81,7 +89,7 @@ let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco'
     " let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco': 'bold'}
 " endif
 
-let s:colors['Comment']          = {'fg': s:base00,    'deco': 'italic'}
+let s:colors['Comment']          = {'fg': s:base00,    'deco': s:italic}
 let s:colors['Constant']         = {'fg': s:teal2,     'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['String']           = {'fg': s:teal2,     'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Number']           = {'fg': s:cyan2,     'bg': 'NONE',      'deco': 'NONE'}
@@ -90,26 +98,26 @@ let s:colors['Identifier']       = {'fg': s:base3,     'deco': 'NONE'}
 let s:colors['Function']         = {'fg': s:violet2,   'deco': 'NONE'}
 let s:colors['Statement']        = {'fg': s:blue1,     'deco': 'NONE'}
 let s:colors['Operator']         = {'fg': s:blue2,     'deco': 'NONE'}
-let s:colors['Include']          = {'fg': s:violet1,   'deco': 'italic'}
+let s:colors['Include']          = {'fg': s:violet01,  'deco': 'NONE'}
 let s:colors['PreProc']          = {'fg': s:violet1,   'deco': 'NONE'}
 let s:colors['Type']             = {'fg': s:magenta1,  'deco': 'NONE'}
 let s:colors['StorageClass']     = {'fg': s:blue2,     'deco': 'NONE'}
 let s:colors['Structure']        = {'fg': s:magenta1,  'deco': 'NONE'}
 let s:colors['Typedef']          = {'fg': s:blue2,     'deco': 'NONE'}
 let s:colors['Special']          = {'fg': s:blue2,     'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['SpecialComment']   = {'fg': s:blue2,     'bg': 'NONE',      'deco': 'italic'}
-let s:colors['Debug']            = {'fg': s:blue2,     'bg': 'NONE',      'deco': 'italic'}
+let s:colors['SpecialComment']   = {'fg': s:blue2,     'bg': 'NONE',      'deco': s:italic}
+let s:colors['Debug']            = {'fg': s:violet3,   'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['Underlined']       = {'deco': 'underline '}
 let s:colors['Ignore']           = {'fg': s:base01}
 let s:colors['Error']            = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold'}
-let s:colors['Todo']             = {'fg': s:orange2,   'bg': 'NONE',      'deco': 'bold,italic'}
+let s:colors['Todo']             = {'fg': s:orange2,   'bg': 'NONE',      'deco': 'bold'}
 
 let s:colors['IncSearch']        = {'fg': s:bg,        'bg': s:magenta2,  'deco': 'bold'}
 let s:colors['Search']           = {'fg': s:bg,        'bg': s:cyan2,     'deco': 'NONE'}
 " let s:colors['IncSearch']      = {'bg': s:red01,     'deco':'bold'}
 " let s:colors['Search']         = {'bg': s:base01}
 let s:colors['Pmenu']            = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
-let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:base00,    'deco': 'bold'}
+let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue01,    'deco': 'bold'}
 let s:colors['PmenuSbar']        = {'bg': s:base02,    'deco': 'NONE'}
 let s:colors['PmenuThumb']       = {'bg': s:base2,     'deco': 'NONE'}
 let s:colors['TabLine']          = {'fg': s:bg,        'bg': s:base00,    'deco': 'NONE'}
