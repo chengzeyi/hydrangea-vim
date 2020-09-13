@@ -55,6 +55,7 @@ let s:bg   = s:base03
 let s:dpbg = s:base04
 let s:colors                     = {}
 let s:colors['Normal']           = {'fg': s:fg,        'bg': s:bg}
+let s:colors['NormalNC']         = {'fg': s:fg,        'bg': s:dpbg}
 let s:colors['bold']             = {'deco': 'bold'}
 let s:colors['Cursor']           = {'fg': s:bg,        'bg': s:fg,        'deco': 'NONE'}
 let s:colors['CursorIM']         = {'fg': s:bg,        'bg': s:fg}
