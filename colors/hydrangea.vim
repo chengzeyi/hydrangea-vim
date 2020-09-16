@@ -34,6 +34,7 @@ let s:cyan01       = ['#064253',  23] " #064253
 let s:cyan1        = ['#169ec4',  38] " #169ec4
 let s:cyan2        = ['#56c7ee',  81] " #56c7ee
 let s:cyan3        = ['#bcebfe', 153] " #bcebfe
+let s:blue02       = ['#293E6A',  18] " #293E6A
 let s:blue01       = ['#3A5795',  62] " #3A5795
 let s:blue1        = ['#537dd5',  68] " #537dd5
 let s:blue2        = ['#8baafe', 111] " #8baafe
@@ -151,7 +152,7 @@ let s:colors['MoreMsg']          = {'fg': s:blue1,     'deco': 'bold'}
 let s:colors['ModeMsg']          = {'fg': s:bg,        'bg': s:blue1,     'deco': 'bold'}
 let s:colors['Question']         = {'fg': s:violet1,   'deco': 'bold'}
 let s:colors['WildMenu']         = {'fg': s:base2,     'bg': s:base01,    'deco': 'bold'}
-let s:colors['ColorColumn']      = {'fg': 'NONE',      'bg': s:red01,     'deco': 'NONE'}
+let s:colors['ColorColumn']      = {'fg': 'NONE',      'bg': s:blue02,    'deco': 'NONE'}
 let s:colors['Conceal']          = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
 
 set background=dark
