@@ -63,8 +63,8 @@ let s:colors['Cursor']           = {'fg': s:bg,        'bg': s:fg,        'deco'
 let s:colors['CursorIM']         = {'fg': s:bg,        'bg': s:fg}
 let s:colors['CursorLine']       = {'fg': 'NONE',      'bg': s:dpbg,      'deco': 'NONE'}
 let s:colors['CursorColumn']     = {'fg': 'NONE',      'bg': s:dpbg,      'deco': 'NONE'}
-let s:colors['Visual']           = {'fg': 'NONE',      'bg': s:albg,    'deco': 'NONE'}
-let s:colors['VisualNOS']        = {'fg': 'NONE',      'bg': s:albg,    'deco': 'NONE'}
+let s:colors['Visual']           = {'fg': 'NONE',      'bg': s:base01,    'deco': 'NONE'}
+let s:colors['VisualNOS']        = {'fg': 'NONE',      'bg': s:base01,    'deco': 'NONE'}
 
 let s:colors['Folded']           = {'fg': s:base00,    'bg': s:dpbg,      'deco': 'NONE'}
 let s:colors['Title']            = {'fg': s:magenta1,  'bg': 'NONE',      'deco': 'bold'}
@@ -80,11 +80,11 @@ let s:colors['FoldColumn']       = {'fg': s:blue1,     'bg': 'NONE',      'deco'
 if has('nvim-0.2.0')
     let s:colors['SpecialKey']   = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 else
-    let s:colors['SpecialKey']   = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+    let s:colors['SpecialKey']   = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
 endif
-let s:colors['NonText']          = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['Whitespace']       = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['EndOfBuffer']      = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['NonText']          = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Whitespace']       = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['EndOfBuffer']      = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco': 'bold'}
 " if has('patch-8.0.1038')
 "     let s:colors['MatchParen']       = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold,strikethrough'}
