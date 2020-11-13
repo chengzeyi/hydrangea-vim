@@ -23,7 +23,8 @@ let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
 let s:base00       = ['#586374', 240] " L* = 68 #586374
 let s:base2        = ['#c3d5ec', 252] " L* = 93 #c3d5ec
 let s:base3        = ['#edf5ff', 255] " L* = 99 #edf5ff
-let s:red01        = ['#681c36',  52] " #681c36
+let s:red02        = ['#481325',  52] " #481325
+let s:red01        = ['#681c36',  88] " #681c36
 let s:red1         = ['#e91e63', 161] " #e91e63
 let s:red2         = ['#f280a7', 211] " #f280a7
 let s:red3         = ['#f8bbd0', 218] " #f8bbd0
@@ -116,9 +117,7 @@ let s:colors['Error']            = {'fg': s:red1,      'bg': 'NONE',      'deco'
 let s:colors['Todo']             = {'fg': s:orange2,   'bg': 'NONE',      'deco': 'bold'}
 
 let s:colors['IncSearch']        = {'fg': s:bg,        'bg': s:magenta2,  'deco': 'bold'}
-let s:colors['Search']           = {'fg': s:bg,        'bg': s:cyan2,     'deco': 'NONE'}
-" let s:colors['IncSearch']      = {'bg': s:red01,     'deco':'bold'}
-" let s:colors['Search']         = {'bg': s:base01}
+let s:colors['Search']           = {'fg': 'NONE',      'bg': s:blue02,    'deco': 'bold'}
 let s:colors['Pmenu']            = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
 let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue01,    'deco': 'bold'}
 let s:colors['PmenuSbar']        = {'bg': s:base02,    'deco': 'NONE'}
@@ -153,7 +152,7 @@ let s:colors['MoreMsg']          = {'fg': s:blue1,     'deco': 'bold'}
 let s:colors['ModeMsg']          = {'fg': s:bg,        'bg': s:blue1,     'deco': 'bold'}
 let s:colors['Question']         = {'fg': s:violet1,   'deco': 'bold'}
 let s:colors['WildMenu']         = {'fg': s:base2,     'bg': s:base01,    'deco': 'bold'}
-let s:colors['ColorColumn']      = {'fg': 'NONE',      'bg': s:blue02,    'deco': 'NONE'}
+let s:colors['ColorColumn']      = {'fg': 'NONE',      'bg': s:red02,     'deco': 'NONE'}
 let s:colors['Conceal']          = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
 
 set background=dark
