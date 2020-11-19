@@ -117,7 +117,7 @@ let s:colors['Error']            = {'fg': s:red1,      'bg': 'NONE',      'deco'
 let s:colors['Todo']             = {'fg': s:orange2,   'bg': 'NONE',      'deco': 'bold'}
 
 let s:colors['IncSearch']        = {'fg': s:bg,        'bg': s:magenta2,  'deco': 'bold'}
-let s:colors['Search']           = {'fg': 'NONE',      'bg': s:blue02,    'deco': 'bold'}
+let s:colors['Search']           = {'fg': s:bg,        'bg': s:cyan2,     'deco': 'NONE'}
 let s:colors['Pmenu']            = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
 let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue01,    'deco': 'bold'}
 let s:colors['PmenuSbar']        = {'bg': s:base02,    'deco': 'NONE'}
