@@ -146,7 +146,7 @@ let s:colors['qfLineNr']         = {'fg': s:blue1}
 
 let s:colors['Directory']        = {'fg': s:cyan1,     'deco': 'NONE'}
 let s:colors['ErrorMsg']         = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold'}
-let s:colors['MsgArea']          = {'bg': s:dpbg}
+" let s:colors['MsgArea']          = {'bg': s:dpbg}
 let s:colors['WarningMsg']       = {'fg': s:orange2,   'deco': 'bold'}
 let s:colors['MoreMsg']          = {'fg': s:blue1,     'deco': 'bold'}
 let s:colors['ModeMsg']          = {'fg': s:bg,        'bg': s:blue1,     'deco': 'bold'}
