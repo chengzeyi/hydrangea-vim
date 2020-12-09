@@ -16,7 +16,8 @@ else
     let s:italic = 'NONE'
 endif
 
-let s:base04       = ['#171d22', 232]
+let s:base05       = ['#171a22', 232]
+let s:base04       = ['#171d22', 233]
 let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
 let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
 let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
@@ -55,10 +56,10 @@ let s:orange2      = ['#fe8019', 208] " #fe8019
 let s:fg   = s:base2
 let s:albg = s:base02
 let s:bg   = s:base03
-let s:dpbg = s:base04
+let s:dpbg = s:base05
 let s:colors                     = {}
 let s:colors['Normal']           = {'fg': s:fg,        'bg': s:bg}
-let s:colors['NormalNC']         = {'fg': s:fg,        'bg': s:dpbg}
+let s:colors['NormalNC']         = {'fg': s:fg,        'bg': s:base04}
 let s:colors['bold']             = {'deco': 'bold'}
 let s:colors['Cursor']           = {'fg': s:bg,        'bg': s:fg,        'deco': 'NONE'}
 let s:colors['CursorIM']         = {'fg': s:bg,        'bg': s:fg}
@@ -154,6 +155,27 @@ let s:colors['Question']         = {'fg': s:violet1,   'deco': 'bold'}
 let s:colors['WildMenu']         = {'fg': s:base2,     'bg': s:base01,    'deco': 'bold'}
 let s:colors['ColorColumn']      = {'fg': 'NONE',      'bg': s:red02,     'deco': 'NONE'}
 let s:colors['Conceal']          = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
+
+let s:colors['LspReferenceText'] = s:colors['Visual']
+let s:colors['LspReferenceRead'] = s:colors['Visual']
+let s:colors['LspReferenceWrite'] = s:colors['Visual']
+
+let s:colors['LspDiagnosticsDefaultError'] = s:colors['ErrorMsg']
+let s:colors['LspDiagnosticsDefaultWarning'] = s:colors['WarningMsg']
+let s:colors['LspDiagnosticsDefaultInformation'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsDefaultHint'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsSignError'] = s:colors['ErrorMsg']
+let s:colors['LspDiagnosticsSignWarning'] = s:colors['WarningMsg']
+let s:colors['LspDiagnosticsSignInformation'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsSignHint'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsFloatingError'] = s:colors['ErrorMsg']
+let s:colors['LspDiagnosticsFloatingWarning'] = s:colors['WarningMsg']
+let s:colors['LspDiagnosticsFloatingInformation'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsFloatingHint'] = s:colors['MoreMsg']
+let s:colors['LspDiagnosticsUnderlineError'] = s:colors['SpellBad']
+let s:colors['LspDiagnosticsUnderlineWarning'] = s:colors['SpellCap']
+let s:colors['LspDiagnosticsUnderlineInformation'] = s:colors['SpellLocal']
+let s:colors['LspDiagnosticsUnderlineHint'] = s:colors['SpellRare']
 
 set background=dark
 
