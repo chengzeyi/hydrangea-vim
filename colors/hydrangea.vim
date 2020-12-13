@@ -4,12 +4,6 @@
 " Version:  5.0.0
 " License:  MIT License
 
-hi clear
-if exists('syntax_on')
-    syntax reset
-endif
-let g:colors_name = 'hydrangea'
-
 if get(g:, 'hydrangea_italic', 1)
     let s:italic = 'italic'
 else
@@ -178,6 +172,12 @@ let s:colors['LspDiagnosticsUnderlineInformation'] = s:colors['SpellLocal']
 let s:colors['LspDiagnosticsUnderlineHint'] = s:colors['SpellRare']
 
 set background=dark
+hi clear
+if exists('syntax_on')
+    syntax reset
+endif
+let g:colors_name = 'hydrangea'
+
 
 for [hl_group, def] in items(s:colors)
     let processed_def = {
@@ -239,4 +239,3 @@ if has('nvim')
 elseif exists(':terminal')
     let g:terminal_ansi_colors = s:terminal_ansi_colors
 endif
-
