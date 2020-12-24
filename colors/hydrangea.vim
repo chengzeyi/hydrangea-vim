@@ -11,7 +11,7 @@ else
 endif
 
 let s:base05       = ['#07080b', 232]
-let s:base04       = ['#171a22', 233]
+let s:base04       = ['#0e1015', 233]
 let s:base03       = ['#1e222c', 234] " L* = 44 #1e222c
 let s:base02       = ['#2a303b', 236] " L* = 50 #2a303b
 let s:base01       = ['#3b4351', 238] " L* = 58 #3b4351
