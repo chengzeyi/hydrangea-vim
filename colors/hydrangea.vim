@@ -82,11 +82,11 @@ let s:colors['FoldColumn']       = {'fg': s:blue1,     'bg': 'NONE',      'deco'
 if has('nvim-0.2.0')
     let s:colors['SpecialKey']   = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 else
-    let s:colors['SpecialKey']   = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
+    let s:colors['SpecialKey']   = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
 endif
-let s:colors['NonText']          = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['Whitespace']       = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
-let s:colors['EndOfBuffer']      = {'fg': s:base02,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['NonText']          = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['Whitespace']       = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
+let s:colors['EndOfBuffer']      = {'fg': s:base01,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['MatchParen']       = {'fg': s:red1,      'bg': s:base01,    'deco': s:bold}
 " if has('patch-8.0.1038')
 "     let s:colors['MatchParen']       = {'fg': s:red1,      'bg': 'NONE',      'deco': 'bold,strikethrough'}
