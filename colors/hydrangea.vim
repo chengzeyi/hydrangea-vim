@@ -74,6 +74,7 @@ let s:colors['StatusLine']       = {'fg': s:bg,        'bg': s:cyan1,     'deco'
 let s:colors['StatusLineNC']     = {'fg': s:cyan1,     'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['StatusLineTerm']   = {'fg': s:bg,        'bg': s:teal1,     'deco': s:bold}
 let s:colors['StatusLineTermNC'] = {'fg': s:teal1,     'bg': s:teal01,    'deco': 'NONE'}
+let s:colors['MsgSeparator']     = {'fg': s:bg,        'bg': s:violet1,   'deco': s:bold}
 let s:colors['VertSplit']        = {'fg': s:albg,      'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']           = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']     = {'fg': s:base3,     'bg': s:base00,    'deco': s:bold}
