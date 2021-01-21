@@ -61,8 +61,8 @@ let s:colors                     = {}
 let s:colors['Normal']           = {'fg': s:fg,        'bg': s:bg}
 let s:colors['NormalNC']         = {'fg': s:fg,        'bg': s:base04}
 let s:colors['bold']             = {'deco': s:bold}
-let s:colors['Cursor']           = {'fg': s:bg,        'bg': s:fg,        'deco': 'NONE'}
-let s:colors['CursorIM']         = {'fg': s:bg,        'bg': s:fg}
+let s:colors['Cursor']           = {'fg': s:dpbg,      'bg': s:fg,        'deco': 'NONE'}
+let s:colors['CursorIM']         = {'fg': s:dpbg,      'bg': s:fg}
 let s:colors['CursorLine']       = {'fg': 'NONE',      'bg': s:dpbg,      'deco': 'NONE'}
 let s:colors['CursorColumn']     = {'fg': 'NONE',      'bg': s:dpbg,      'deco': 'NONE'}
 let s:colors['Visual']           = {'fg': 'NONE',      'bg': s:base01,    'deco': 'NONE'}
@@ -70,11 +70,11 @@ let s:colors['VisualNOS']        = {'fg': 'NONE',      'bg': s:base01,    'deco'
 
 let s:colors['Folded']           = {'fg': s:blue1,     'bg': s:base01,      'deco': 'NONE'}
 let s:colors['Title']            = {'fg': s:magenta1,  'bg': 'NONE',      'deco': s:bold}
-let s:colors['StatusLine']       = {'fg': s:bg,        'bg': s:cyan1,     'deco': s:bold}
+let s:colors['StatusLine']       = {'fg': s:dpbg,      'bg': s:cyan1,     'deco': s:bold}
 let s:colors['StatusLineNC']     = {'fg': s:cyan1,     'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['StatusLineTerm']   = {'fg': s:bg,        'bg': s:teal1,     'deco': s:bold}
+let s:colors['StatusLineTerm']   = {'fg': s:dpbg,      'bg': s:teal1,     'deco': s:bold}
 let s:colors['StatusLineTermNC'] = {'fg': s:teal1,     'bg': s:teal01,    'deco': 'NONE'}
-let s:colors['MsgSeparator']     = {'fg': s:bg,        'bg': s:violet1,   'deco': s:bold}
+let s:colors['MsgSeparator']     = {'fg': s:dpbg,      'bg': s:violet1,   'deco': s:bold}
 let s:colors['VertSplit']        = {'fg': s:albg,      'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['LineNr']           = {'fg': s:base00,    'bg': 'NONE',      'deco': 'NONE'}
 let s:colors['CursorLineNr']     = {'fg': s:base3,     'bg': s:base00,    'deco': s:bold}
@@ -118,15 +118,15 @@ let s:colors['Ignore']           = {'fg': s:base01}
 let s:colors['Error']            = {'fg': s:red1,      'bg': 'NONE',      'deco': s:bold}
 let s:colors['Todo']             = {'fg': s:orange2,   'bg': 'NONE',      'deco': s:bold}
 
-let s:colors['IncSearch']        = {'fg': s:bg,        'bg': s:magenta2,  'deco': s:bold}
-let s:colors['Search']           = {'fg': s:bg,        'bg': s:cyan2,     'deco': 'NONE'}
+let s:colors['IncSearch']        = {'fg': s:dpbg,      'bg': s:magenta2,  'deco': s:bold}
+let s:colors['Search']           = {'fg': s:dpbg,      'bg': s:cyan2,     'deco': 'NONE'}
 let s:colors['Pmenu']            = {'fg': s:base2,     'bg': s:base01,    'deco': 'NONE'}
 let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue01,    'deco': s:bold}
 let s:colors['PmenuSbar']        = {'bg': s:base02,    'deco': 'NONE'}
 let s:colors['PmenuThumb']       = {'bg': s:base2,     'deco': 'NONE'}
 let s:colors['TabLine']          = {'fg': s:magenta1,  'bg': s:magenta01, 'deco': 'NONE'}
-let s:colors['TabLineSel']       = {'fg': s:bg,        'bg': s:magenta1,  'deco': s:bold}
-let s:colors['TabLineFill']      = {'fg': s:bg,        'bg': s:base01,    'deco': 'NONE'}
+let s:colors['TabLineSel']       = {'fg': s:dpbg,      'bg': s:magenta1,  'deco': s:bold}
+let s:colors['TabLineFill']      = {'fg': s:dpbg,      'bg': s:base01,    'deco': 'NONE'}
 " let s:colors['Terminal']       = {'fg': s:base3,     'bg': s:albg,      'deco': 'NONE'}
 
 let s:colors['SpellBad']         = {'sp': s:red1,                         'deco': 'undercurl'}
@@ -134,13 +134,13 @@ let s:colors['SpellCap']         = {'sp': s:red2,                         'deco'
 let s:colors['SpellLocal']       = {'sp': s:orange1,                      'deco': 'undercurl'}
 let s:colors['SpellRare']        = {'sp': s:orange2,                      'deco': 'undercurl'}
 
-let s:colors['DiffAdd']          = {'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['DiffChange']       = {'bg': s:magenta01, 'deco': 'NONE'}
-let s:colors['DiffDelete']       = {'fg': s:red1,      'bg': s:red01,     'deco': 'NONE'}
-let s:colors['DiffText']         = {'bg': s:violet01,  'deco': 'bold'}
+let s:colors['DiffAdd']          = {'fg': s:dpbg,      'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['DiffChange']       = {'fg': s:dpbg,      'bg': s:magenta01, 'deco': 'NONE'}
+let s:colors['DiffDelete']       = {'fg': s:dpbg,      'bg': s:red01,     'deco': 'NONE'}
+let s:colors['DiffText']         = {'fg': s:dpbg,      'bg': s:magenta1,  'deco': 'bold'}
 
-let s:colors['diffAdded']        = {'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['diffRemoved']      = {'bg': s:red01,     'deco': 'NONE'}
+let s:colors['diffAdded']        = {'fg': s:dpbg,      'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['diffRemoved']      = {'fg': s:dpbg,      'bg': s:red01,     'deco': 'NONE'}
 
 let s:colors['QuickFixLine']     = {'bg': s:red01,     'deco': s:bold}
 let s:colors['qfFileName']       = {'fg': s:magenta1}
