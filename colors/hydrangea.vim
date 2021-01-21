@@ -46,7 +46,7 @@ let s:violet01     = ['#6b4c99',  93] " #6b4c99
 let s:violet1      = ['#996ddb',  98] " #996ddb
 let s:violet2      = ['#c398fe', 141] " #c398fe
 let s:violet3      = ['#e2ccfe', 189] " #e2ccfe
-let s:magenta01    = ['#68024b',  53] " #68024b
+let s:magenta01    = ['#872767',  53] " #872767
 let s:magenta1     = ['#e242ac', 169] " #e242ac
 let s:magenta2     = ['#fe7ecd', 212] " #fe7ecd
 let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
@@ -133,13 +133,13 @@ let s:colors['SpellCap']         = {'sp': s:red2,                         'deco'
 let s:colors['SpellLocal']       = {'sp': s:orange1,                      'deco': 'undercurl'}
 let s:colors['SpellRare']        = {'sp': s:orange2,                      'deco': 'undercurl'}
 
-let s:colors['DiffAdd']          = {'fg': s:cyan1,     'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['DiffChange']       = {'fg': s:magenta1,  'bg': s:magenta01, 'deco': 'NONE'}
+let s:colors['DiffAdd']          = {'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['DiffChange']       = {'bg': s:magenta01, 'deco': 'NONE'}
 let s:colors['DiffDelete']       = {'fg': s:red1,      'bg': s:red01,     'deco': 'NONE'}
-let s:colors['DiffText']         = {'fg': s:magenta01, 'bg': s:magenta1,  'deco': 'NONE'}
+let s:colors['DiffText']         = {'bg': s:violet01,  'deco': 'bold'}
 
-let s:colors['diffAdded']        = {'fg': s:cyan1,     'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['diffRemoved']      = {'fg': s:red1,      'bg': s:red01,     'deco': 'NONE'}
+let s:colors['diffAdded']        = {'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['diffRemoved']      = {'bg': s:red01,     'deco': 'NONE'}
 
 let s:colors['QuickFixLine']     = {'bg': s:red01,     'deco': s:bold}
 let s:colors['qfFileName']       = {'fg': s:magenta1}
