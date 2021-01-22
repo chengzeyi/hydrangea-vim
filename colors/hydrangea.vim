@@ -46,7 +46,8 @@ let s:violet01     = ['#6b4c99',  93] " #6b4c99
 let s:violet1      = ['#996ddb',  98] " #996ddb
 let s:violet2      = ['#c398fe', 141] " #c398fe
 let s:violet3      = ['#e2ccfe', 189] " #e2ccfe
-let s:magenta01    = ['#872767',  53] " #872767
+let s:magenta02    = ['#712056',  53] " #712056
+let s:magenta01    = ['#9e2e78',  89] " #9e2e78
 let s:magenta1     = ['#e242ac', 169] " #e242ac
 let s:magenta2     = ['#fe7ecd', 212] " #fe7ecd
 let s:magenta3     = ['#ffc3e4', 218] " #ffc3e4
@@ -124,7 +125,7 @@ let s:colors['Pmenu']            = {'fg': s:base2,     'bg': s:base01,    'deco'
 let s:colors['PmenuSel']         = {'fg': s:base3,     'bg': s:blue01,    'deco': s:bold}
 let s:colors['PmenuSbar']        = {'bg': s:base02,    'deco': 'NONE'}
 let s:colors['PmenuThumb']       = {'bg': s:base2,     'deco': 'NONE'}
-let s:colors['TabLine']          = {'fg': s:magenta1,  'bg': s:magenta01, 'deco': 'NONE'}
+let s:colors['TabLine']          = {'fg': s:magenta1,  'bg': s:magenta02, 'deco': 'NONE'}
 let s:colors['TabLineSel']       = {'fg': s:dpbg,      'bg': s:magenta1,  'deco': s:bold}
 let s:colors['TabLineFill']      = {'fg': s:dpbg,      'bg': s:base01,    'deco': 'NONE'}
 " let s:colors['Terminal']       = {'fg': s:base3,     'bg': s:albg,      'deco': 'NONE'}
@@ -134,12 +135,12 @@ let s:colors['SpellCap']         = {'sp': s:red2,                         'deco'
 let s:colors['SpellLocal']       = {'sp': s:orange1,                      'deco': 'undercurl'}
 let s:colors['SpellRare']        = {'sp': s:orange2,                      'deco': 'undercurl'}
 
-let s:colors['DiffAdd']          = {'fg': s:dpbg,      'bg': s:cyan01,    'deco': 'NONE'}
-let s:colors['DiffChange']       = {'fg': s:dpbg,      'bg': s:magenta01, 'deco': 'NONE'}
-let s:colors['DiffDelete']       = {'fg': s:dpbg,      'bg': s:red01,     'deco': 'NONE'}
-let s:colors['DiffText']         = {'fg': s:dpbg,      'bg': s:magenta1,  'deco': 'bold'}
+let s:colors['DiffAdd']          = {'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['DiffChange']       = {'bg': s:magenta02, 'deco': 'NONE'}
+let s:colors['DiffDelete']       = {'fg': s:red1,      'bg': s:red01,     'deco': 'NONE'}
+let s:colors['DiffText']         = {'bg': s:magenta01, 'deco': 'bold'}
 
-let s:colors['diffAdded']        = {'fg': s:dpbg,      'bg': s:cyan01,    'deco': 'NONE'}
+let s:colors['diffAdded']        = {'bg': s:cyan01,    'deco': 'NONE'}
 let s:colors['diffRemoved']      = {'fg': s:dpbg,      'bg': s:red01,     'deco': 'NONE'}
 
 let s:colors['QuickFixLine']     = {'bg': s:red01,     'deco': s:bold}
@@ -178,13 +179,16 @@ let s:colors['LspDiagnosticsUnderlineWarning'] = s:colors['SpellCap']
 let s:colors['LspDiagnosticsUnderlineInformation'] = s:colors['SpellLocal']
 let s:colors['LspDiagnosticsUnderlineHint'] = s:colors['SpellRare']
 
+let s:colors['GitGutterAdd'] = {'fg': s:cyan1}
+let s:colors['GitGutterChange'] = {'fg': s:magenta1}
+let s:colors['GitGutterDelete'] = {'fg': s:red1}
+
 set background=dark
 hi clear
 if exists('syntax_on')
     syntax reset
 endif
 let g:colors_name = 'hydrangea'
-
 
 for [hl_group, def] in items(s:colors)
     let processed_def = {
