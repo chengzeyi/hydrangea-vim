@@ -104,6 +104,7 @@ let s:colors['Boolean']          = {'fg': s:cyan2,     'bg': 'NONE',      'deco'
 let s:colors['Identifier']       = {'fg': s:base3,     'deco': 'NONE'}
 let s:colors['Function']         = {'fg': s:violet2,   'deco': 'NONE'}
 let s:colors['Statement']        = {'fg': s:blue1,     'deco': 'NONE'}
+let s:colors['Label']            = {'fg': s:blue1,     'deco': s:italic}
 let s:colors['Operator']         = {'fg': s:blue2,     'deco': 'NONE'}
 let s:colors['Include']          = {'fg': s:violet1,   'deco': s:italic}
 let s:colors['PreProc']          = {'fg': s:violet1,   'deco': 'NONE'}
